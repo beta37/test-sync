@@ -1,861 +1,861 @@
 zh-TW:
   application:
-    unexpected_error: An unexpected error has occurred. Sorry for the inconvenience.
-    routing_error: Unknown URL. Redirecting...
-    remote_error: 'Failed to communicate with the Remote Service.'
+    unexpected_error: 一个意想不到的错误。 对不起不便。
+    routing_error: 未知的网址。 重定向...
+    remote_error: '无法与远程服务。'
     general:
-      more: more »
-      hide: '« okay'
-      next: Next
-      back: Back
-      name: Name
-      undefined: Not yet entered
-      email: E-Mail
-      email_confirmation: Confirm E-Mail
-      ok: Ok
-      or: or
-      save: Save
-      edit: Edit
-      cancel: Cancel
-      close: Close
-      send: Send
-      upload: Upload
-      delete: Delete
-      create: Add
-      incorporate: Incorporate
-      welcome: Welcome
-      all: All
-      authors: Authors
-      share_action: 'Make an echo!'
+      more: 更多"
+      hide: '"好吧'
+      next: 下
+      back: 回
+      name: 名称
+      undefined: 没有进入
+      email: 电子邮件
+      email_confirmation: 确认电子邮件
+      ok: '"确定"'
+      or: 或
+      save: 保存
+      edit: 编辑
+      cancel: 取消
+      close: 靠近
+      send: 发送
+      upload: 上传
+      delete: 删除
+      create: 添加
+      incorporate: 合并
+      welcome: 欢迎光临
+      all: 所有
+      authors: 作者
+      share_action: '做一个回音的！'
     roadmap:
-      title: Roadmap
-      progress_tooltip: 'This area of echo is {{progress}}% ready.'
-      status_quo: 'Status Quo'
-      next_steps: 'Next Steps'
-      vision: 'At The End of The Road'
+      title: 路线图
+      progress_tooltip: '这个地区的回声是{{progress}}％的准备。'
+      status_quo: '现状'
+      next_steps: '接下来的步骤'
+      vision: '在路的尽头'
       discuss:
-        status_quo: 'echo "Discuss" is currently <strong>{{progress}}% ready</strong>.'
-        next_steps: 'The first features of echo "Discuss" have been released. Its functionality will be extended step by step in the next releases.'
+        status_quo: 'echo"讨论"是目前<strong>{{progress}}%ready</strong>的。'
+        next_steps: '第一个特征echo"讨论"已被释放。 其功能将扩展的步骤，在下一个版本。'
       connect:
-        status_quo: 'echo "Connect" is currently <strong>{{progress}}% ready</strong>.'
-        next_steps: 'echo "Connect" will be enhanced after the first features of echo "Discuss" and echo "Act" have been released.'
+        status_quo: 'echo"Connect"目前<strong>{{progress}}%ready</strong>的。'
+        next_steps: 'echo"Connect"将是强化后的第一个特征echo"讨论"和echo"行为"已经被释放。'
       act:
-        status_quo: 'echo "Act" is currently <strong>{{progress}}% ready</strong>.'
-        next_steps: 'The development of echo "Act" will begin after the first functions of echo "Discuss" have been released.'
+        status_quo: '回声"行动"目前<strong>{{progress}}%ready</strong>的。'
+        next_steps: '发展echo"法案"将开始后的第一次功能的回声"讨论"已被释放。'
       my_echo:
-        status_quo: 'The "My echo" area is currently <strong>{{progress}}% ready</strong>.'
-        next_steps: 'Further development of this area is planned after some basic functionality of "Discuss, Connect and Act" has been released.'
+        status_quo: '"我的回声"的区域是目前<strong>{{progress}}%ready</strong>的。'
+        next_steps: '进一步发展这个领域是计划后，一些基本功能"讨论，连接和法案"已被释放。'
         vision: |
           <p>
-          In the long term, the My echo area will be your <strong>personal information hub</strong> inside of echo. E.g. it will provide
-          you with the most <strong>important news</strong> and call your attention to the most <strong>recent discussions and actions</strong> according
-          to your preferences.
+          在长期的，我的回音的区域将是你的<strong>personal信息hub</strong>里的回声。 E.g。 它将提供
+          你最<strong>important news</strong>并请你注意最<strong>recent讨论，并根据actions</strong>
+          你的喜好。
           </p>
   help:
     discuss:
       closed_discussions:
-        hint: Tags to create closed discussions...
+        hint: 标记，以创造封闭的讨论...
         text: |
-          <p>Defining a *tag (starting with ONE *) will make this discussion semi-closed. Users must define the same
-          *tag as a decision making tag in their profile to be able to participate in the discussion, however it
-          will remain visible and transparent to the outside world.</p>
-          <p>Defining a **tag (with TWO **) will make this discussion fully closed. It will only be visible for users
-          having the same **tag as a decision making tag in their profile.</p>
-          <p>Please note, that this is just a temporary solution to facilitate closed discussions in echo. The real
-          solution with circles, invitations and fine-graded access right management will be coming later.</p>
+          <p>Defining*标记(一)将使这一讨论的半封闭。 用户必须定义相同的
+          *标记作为一个决策标记在他们的个人资料能够参加讨论，但是它
+          将仍然可见和透明的到外面的世界。</p>
+          <p>Defining**标记(两**)将使这一讨论完全关闭。 它将只是可见的用户
+          具有同样的**标记作为一个决策标记在他们的个人资料。</p>
+          <p>Please注意，这只是一个临时的解决方案，以便于关闭进行的讨论的回声。 真实的
+          解决方案的圈子，邀请和细的分权管理将是未来之后。</p>
     profile:
       closed_discussions:
-        hint: Tags to access closed discussions...
+        hint: 标签访问封闭的讨论...
         text: |
-          <p>Here you can enter the appropriate *tags and **tags as decision making tags. This will allow you to
-          take part in transparent, semi-closed discussions (tagged with *tag) and to see closed, internal
-          ones (protected with **tag) respectively.</p>
-          <p>Please note, that this is just a temporary solution to facilitate closed discussions in echo. The real
-          solution with circles, invitations and fine-graded access right management will be coming later.</p>
+          <p>Here你可以进入的适当*标记和标签作为决策的标签。 这将允许你
+          参加在透明的、半封闭的讨论(标有*标记)，并请参阅关闭，内部
+          (受保护与**标记)的分别。</p>
+          <p>Please注意，这只是一个临时的解决方案，以便于关闭进行的讨论的回声。 真实的
+          解决方案的圈子，邀请和细的分权管理将是未来之后。</p>
   layouts:
     tabs:
-      discuss: Discuss
-      connect: Connect
-      act: Act
-      my_echo: My echo
-      admin: Admin
+      discuss: 讨论
+      connect: 连接
+      act: 法
+      my_echo: 我的回声
+      admin: 管理员
     outer_menu:
-      language: Language
-      feedback: Feedback
-      about: About us
-      logout: Logout
-      imprint: Imprint
-      data_privacy: Data Privacy
+      language: 语言
+      feedback: 反馈
+      about: 关于我们
+      logout: 注销
+      imprint: 印记
+      data_privacy: 数据隐私
     discuss:
       tabs: ""
     connect:
       tabs:
-        search: Explore Community
+        search: 探讨的社区
     act:
       tabs: ""
     my_echo:
       tabs:
-        welcome: Welcome
-        profile: My Profile
-        settings: Settings
-      profile_complete: '{{complete}}% complete'
+        welcome: 欢迎光临
+        profile: 我的档案
+        settings: 设置
+      profile_complete: '{{complete}}%完成'
   users:
-    anonym: Anonym
+    anonym: 化名
     authors:
       teaser:
-        title: 'Become a co-author!'
+        title: '成为共同作者！'
     remote_auth:
       input_default:
-        openid: Your OpenID URL
+        openid: 你的身份URL
     signup:
-      label: 'Register'
-      member_tag: Not a member yet?
-      via_echo: '... via E-Mail'
-      via_social: '... via existing account'
+      label: '注册'
+      member_tag: 没有一个会员吗？
+      via_echo: '...通过电子邮件'
+      via_social: '...通过现有的帐户'
     setup_basic_profile:
-      title: 'Setup Basic Profile'
-      guide: Please fill in your basic profile information to set up your account.
-      agreement: I have read and agree to the terms of data policy.
-      use_photo: 'Use in echo, too'
+      title: '设置的基本资料'
+      guide: 请填写在你的基本概要信息来设置你的帐户。
+      agreement: 我已经阅读并同意的条款的数据政策。
+      use_photo: '利用回声，太'
     signin:
-      label: 'Login'
-      password: 'Password'
-      member_tag: Already a member?
-      via_echo: '... via echo'
-      via_social: '... via a connected account'
-      set_password: Forgot your password?
-      remember: Remember me!
-      hello: Logged in<br/><strong>{{name}}</strong>
+      label: '登录'
+      password: '密码'
+      member_tag: 已经一个会员吗？
+      via_echo: '...通过回声'
+      via_social: '...经过一个连接帐户'
+      set_password: 忘了密码了?
+      remember: 记住我！
+      hello: 记录in<br/><strong>{{name}}</strong>
       hint: |
-        To prevent others from logging in without having to enter your password,
-        please logout of the used social account (e.g. Facebook, Twitter) in the end explicitely.
+        防止他人从记录中没有输入您的密码
+        请注销的用于社会的帐户(例如Facebook、Twitter)在底明确地.
       messages:
-        success: "Login successful. Welcome back to echo."
-        failed: "Unknown user or wrong password."
-        failed_social: Please log in with an account you registered with or that you connected to your echo account.
+        success: "登录成功的。 欢迎回到回音。"
+        failed: "未知的用户或密码错误。"
+        failed_social: 请登录在一个帐户注册的或者说你接到你的回音的帐户。
     signout:
       messages:
-        success: "Logout successful. Please don't forget to also logout from Facebook & co. See you later. Bye!"
+        success: "注销的成功。 请不要忘记，还注销从Facebook&co. 看到你以后。 再见！"
     user_sessions:
       messages:
-        session_timeout: "Your session has expired. Please log in again."
+        session_timeout: "你届会议已经过期。 请登录。"
     activation:
       messages:
-        success: Your account has been successfully created. Welcome to echo!
+        success: 你的账户已经成功地创建。 欢迎回来！
         failed: |-
-          <p>Your account could not be activated. Please check your input.</p>
-        email_success: Your E-mail has been changed successfully!
-        already_active: Your account is already active!
-        no_account: Your account does not exist!
-        no_full_name: Please fill in your full name.
-        no_agreement: Please confirm our data policy in order to register.
+          <p>Your帐户不能启动。 请检查你的输入。</p>
+        email_success: 你的电子邮件已经改变了成功！
+        already_active: 你的账户已经是活的！
+        no_account: 您的账户是不存在的！
+        no_full_name: 请填写你的全名。
+        no_agreement: 请确认我们的数据政策，以便登记册。
     password_reset:
-      step1: Require new password
-      step2: Define new password
+      step1: 需要新的密码
+      step2: 界定新的密码
       step1_text: |
-        <p>Forgot your password or you would simply like to define a new one?</p>
-        <p>No problem! Just fill in your E-Mail address you used to register in echo.
-        We will send you an E-mail shortly allowing you to define a new password.</p>
-      step1_mail: Send E-Mail
+        <p>Forgot你的密码或者你只想定一个新的？</p>
+        <p>No问题！ 只是填写电子邮件地址用于登记在回声。
+        我们会送你一个电子邮件不久允许你要定义一个新的密码。</p>
+      step1_mail: 发送电子邮件
       step2_text: |
-        Please define your new password you would like to use to log in to echo.
-      step2_ok: Set new password
+        请定义新的密码，你会喜欢使用登录到回音。
+      step2_ok: 套新密码
       messages:
-        success: "We have sent you an E-mail allowing you to reset your password. Please check your inbox."
-        not_found: "Unknown E-Mail address."
-        reset_success: "Your new password has been saved successfully."
-        reset_failed: "Your password could not be updated. Please check your input."
+        success: "我们给你发了电子邮件允许你要重设你的密码。 请检查你的收件箱。"
+        not_found: "未知的电子邮件地址。"
+        reset_success: "新密码已经被成功保存。"
+        reset_failed: "你的密码不能被更新。 请检查你的输入。"
     profile:
-      to: Go to profile
-      title: Personal Information
-      edit_title: Edit your personal information
-      guide: Below you find your basic personal information. Please press the Edit button to change it.
+      to: 去档案
+      title: 个人信息
+      edit_title: 编辑您的个人信息
+      guide: 下你找到你的基本个人信息。 请新闻编辑按钮改变它。
       gender:
-        male: Male
-        female: Female
-      location: Location
+        male: 男性
+        female: 女性
+      location: 位置
       password:
-        title: Change password
-        old: Current password
-        new: New password
-        confirm: Confirm new password
+        title: 改变密码
+        old: 当前的密码
+        new: 新密码
+        confirm: 确认新密码
       picture:
-        upload_button: Change
+        upload_button: 改变
       upload_picture:
-        title: Upload Picture
-        guide: Please <strong>select a picture</strong> (JPG or PNG, max. 5MB) and upload it.
-        progress: Your avatar is being uploaded. Please wait...
+        title: 上传照片
+        guide: 请<strong>select一picture</strong>(JPG或PNG,max。 5MB)和上传。
+        progress: 你的头像正在上传。 请等等...
       messages:
-        updated: "Profile information updated successfully."
-        image_invalid: 'is invalid or inaccessible'
+        updated: "配置文件的信息更新的成功。"
+        image_invalid: '是无效或无法访问'
     spoken_languages:
-      title: Language Skills
+      title: 语言技能
       guide: |
-        Here you can enter your language skills to <strong>see content only in languages you speak</strong>.<br/>
-        Additionally, it will enable you to contribute to echos cross-language, intercultural dialogs by
-        <strong>translating statements</strong> between languages you speak <strong>at least intermediate level</strong>.
-        This is to ensure good content quality.<br/>
-        Please don't forget to also set your <strong>mother language</strong>.
-      language: Language
-      level: Level
+        在这里你可以进入你的语言技能<strong>see内容只有在语言中，你speak</strong>的。<br/>
+        此外，它将使你能够有助于回声截语言，文化间对话通过
+        <strong>translating statements</strong>之间的语言说话<strong>at少中间level</strong>的。
+        这是为了确保良好的内容的质量。<br/>
+        请不要忘记，还设置你的<strong>mother language</strong>的。
+      language: 语言
+      level: 水平
       error_messages:
-        repeated_instance: This language is already defined.
+        repeated_instance: 这种语言已经界定。
     memberships:
-      title: Activities
-      guide: Here you can enter your voluntary, professional and other kinds of activities in different organisations.
-      organisation: Organisation
-      position: My role
+      title: 活动
+      guide: 在这里你可以进入你的自愿、专业和其他种类的活动在不同的组织。
+      organisation: 组织
+      position: 我的角色
     web_addresses:
-      title: Web Addresses
+      title: 网址
       guide: |
-        Here you can enter some of your contact data and other web profiles.<br/>
-        <strong>PLEASE NOTE</strong>: for now, all information entered here will be
-        <strong>visible to all members</strong> of the echo community.
-      type: Kind of address
-      address: Web Address
+        在这里你可以进入一些联系人的数据和其他网络的配置文件。<br/>
+        <strong>PLEASE NOTE</strong>：现在，所有输入的信息将在这里
+        <strong>visible所有members</strong>的回的社区。
+      type: 种类的地址
+      address: 网址
     concernments:
-      title: Concernments & Competences
+      title: Concernments和能力
       guide: |
-        All of us have <strong>different facets</strong>. In some areas we might be impacted and need help from others,
-        in other areas we engage ourselves and offer help to others. In certain fields we have professional expertise,
-        in others we might represent other people and make decisions.<br/>
-        echo helps like-minded people to find each other with <strong>knowledge complementing each other</strong>.<br/>
-        Which <strong>keywords (tags)</strong> would you describe <strong>your concernments and competences</strong> with?
+        我们所有人都有<strong>different facets</strong>的。 在一些领域，我们可能会受到影响和需要别人的帮助，
+        在其他领域，我们参与自己和提供有助于其他人。 在某些领域我们有专业的专门知识，
+        在其他我们可能代表其他人，并作出决定。<br/>
+        回声有助于志同道合的人找到彼<strong>knowledge补充每个other</strong>的。<br/>
+        这<strong>keywords(标签)</strong>你能描述<strong>your concernments和competences</strong>？
       sorts:
-        affection: <strong>Impacted</strong> by
-        engagement: <strong>Engaged</strong> in
-        expertise: <strong>Expert</strong> in the field of
-        decision_making: <strong>Decision maker</strong> in the field of
-      tags: Keywords (tags)
+        affection: <strong>Impacted</strong>通过
+        engagement: <strong>Engaged</strong>在
+        expertise: <strong>Expert</strong>在场的
+        decision_making: <strong>Decision maker</strong>在场的
+      tags: 关键词(标签)
     notifications:
-      title: E-Mail Notification Settings
-      guide: Here you can set whether you would like to receive E-Mail notifications on different subjects.
+      title: 电子邮件通知设置
+      guide: 在这里你可以设定你是否愿意接收电子邮件通知在不同的科目。
       newsletter:
-        title: Newsletter
-        guide: Receive echo newsletter.
-        turned_on: You have subscribed to the echo newsletter.
-        turned_off: You have unsubscribed from the echo newsletter.
+        title: 时事通讯
+        guide: 收到回音通讯。
+        turned_on: 你有订阅到回音通讯。
+        turned_off: 你必须取消订阅的回音通讯。
       activity:
-        title: Activity Notifications
-        guide: Daily updates on new discussions and new statements in discussions you were active in.
-        turned_on: Activity notifications have been switched on.
-        turned_off: Activity notifications have been switched off.
+        title: 活动的通知
+        guide: 每天更新新的讨论和新陈述，在讨论你是积极的。
+        turned_on: 活动的通知已交换。
+        turned_off: 活动通知已经关闭。
       drafting:
-        title: Drafting Notifications
+        title: 起草的通知
         guide: |
-          Immediate updates to follow the co-creative drafting process of your proposals and additions -
-          e.g. when your additions were approved to be incorporated.<br/><br/>
-          <strong>Attention!</strong> If this notification is turned off, you might easily miss the opportunity to
-          incorporate your additional ideas into proposals you support.
-        turned_on: Drafting notifications have been switched on.
-        turned_off: Drafting notifications have been switched off.
+          立即更新，以按照共同创造性的起草过程中提出的建议和增加-
+          例如当你增加批准了以纳入。<br/><br/>
+          <strong>Attention!</strong>如果这种通知是关闭的，你可能轻易错过的机会
+          把你另外的想法变成提议你们的支持。
+        turned_on: 起草的通知已交换。
+        turned_off: 起草的通知已经关闭。
     permissions:
-      title: Privacy Settings
-      guide: Where in echo your personal data should be shown or be hidden?
+      title: 设置隐私
+      guide: 在回你的私人数据应该显示或要隐藏的?
       authorship:
-        title: Authorship of statements
-        guide: Let other logged in members (but no search engines) see your profile information as being a co-author of a statement in echo Discuss.
-        turned_on: Your profile information will be shown when displaying co-authors of statements.
-        turned_off: You will be displayed as Anonym among other authors of a statement.
+        title: 作者声明
+        guide: 让其他记录在成员(但没有搜索引擎)的看看你的档案信息作为合作者的发言echo讨论。
+        turned_on: 你的档案信息将显示当显示的合作者的发言。
+        turned_off: 你将被显示为化名之中的其他作者的发言。
     echo_account:
-      title: echo Account
-      guide: Here you can manage your echo account.
+      title: 回帐户
+      guide: 在这里你可以管理自己的回音的帐户。
       change_email:
-        title: Change E-Mail
+        title: 改变电子邮件
         guide: |
-          You are currently registered with the E-Mail address: <strong>{{email}}</strong>.<br/>
-          Here you can define a new address echo should use to keep in touch with you.
-        password: Your Password
-        success: E-Mail changed successfully.
-        failed: Failed to change E-Mail.
-        no_password: Please enter your valid password to change your E-Mail.
+          你目前登记的电子邮件地址：<strong>{{email}}</strong>.<br/>
+          您可以在这里定义的新地址回应使用保持联系。
+        password: 你的密码
+        success: 电子邮件改变了成功。
+        failed: 未能改变电子邮件。
+        no_password: 请输入您的有效密码改变你的电子邮件。
       change_password:
-        title: Change Password
-        guide: Please define your new password.
-        success: Your password has been changed successfully.
-        failed: Failed to change your password.
-        wrong_password: The entered current password is wrong.
+        title: 改变密码
+        guide: 请定义新的密码。
+        success: 你的密码已经被改变了成功。
+        failed: 未能改变你的密码。
+        wrong_password: 输入电流密码是错误的。
       delete_account:
-        title: Delete Account
-        password: Your Password
+        title: 删除帐户
+        password: 你的密码
         guide: |
           <p><strong>ATTENTION!</strong></p>
-          <p>Your account and ALL your personal data will be <strong>permanently deleted</strong>.<br/>
-          The echos you have made will be kept fully anonymously.</p>
-          <p>Please enter your password and click the button below, if you want to proceed.</p>
-        confirm: Delete my account permanently
-        success: Your echo account was successfully deleted.
+          <p>Your账户和所有个人数据将<strong>permanently deleted</strong>的。<br/>
+          的回声，你们会保持完全匿名。</p>
+          <p>Please输入您的密码并点击按钮，如果你想要继续进行。</p>
+        confirm: 删除我的账号，永久地
+        success: 你回帐户已成功地删除。
     social_accounts:
-      title: Social Accounts
-      guide: Connect up your accounts to easily share and amplify your echo via other social networks.
+      title: 社会帐户
+      guide: 连接了你的账户方便地共享和放大你的回通过其他社会网络。
       providers:
         facebook: Facebook
         twitter: Twitter
         yahoo!: Yahoo!
         linkedin: LinkedIn
-        google: Google
+        google: 谷歌
       connect:
-        title: Connect
-        success: Your {{account}} account has been connected successfully.
-        failed: Failed to connect to your {{account}} account.
+        title: 连接
+        success: 你{{account}}账户已经连接成功。
+        failed: 无法连接到你的{{account}}帐户。
       disconnect:
-        title: Disconnect
-        success: Your {{account}} account has been disconnected.
-        failed: Failed to disconnect your {{account}} account.
+        title: 断开
+        success: 你{{account}}的帐户已被中断。
+        failed: 没断开你的{{account}}帐户。
       share:
-        title: Spread the word
-        guide: Make an echo in your social networks.
-        text: Message
+        title: 传播这个词
+        guide: 做一个回音在你的社交网络。
+        text: 消息
         data_privacy:
-          title: Data Privacy Notice
-          description: Mind the privacy policy of other networks before sharing your views on them...
-        preview: Preview
-        submit: Send echo
-        error: Something went wrong while sharing your echo. Please check your network connection.
+          title: 数据隐私权的通知
+          description: 心中的隐私政策的其他网络之前分享你的意见...
+        preview: 的预览
+        submit: 送回声
+        error: 东西去了错误的，同时分享你的回音。 请检查你的网络连接。
         success: |
-          Made an echo via {{accounts}}.
+          作出回通过{{accounts}}的。
         failed: |
-          Failed to share via {{accounts}}.
+          未能通过分享{{accounts}}的。
         timeout: |
-          Connection with {{accounts}} timed out!
-        enabled: "On"
-        disabled: "Off"
+          连接{{accounts}}超时了!
+        enabled: "上"
+        disabled: "关闭"
     users:
       new:
-        title: Your echo
-        subtitle: Join echo
+        title: 你的回声
+        subtitle: 参加回声
         text: |
           <p>
-          <strong>echo is democracy from the people for the people.</strong>
+          <strong>echo是民主的人民。</strong>
           </p><p>
-          Join us now to participate!
+          现在就加入我们，参加！
           </p>
-        action: 'Join now!'
+        action: '现在就加入了。'
       messages:
-        created: "Please check your E-Mails to activate your newly created account!"
-        activate_email: In order to complete the E-Mail address modification, please log out and press the confimation link sent to your new E-Mail address!
+        created: "请查收电子邮件，以激活新创建的帐户！"
+        activate_email: 为了完整的电子邮件地址的修改，请登出，并按confimation链接发到你的新电子邮件地址！
     reports:
       new:
-        title: "Report user"
+        title: "报告的用户"
         text: |
-          <p>Did you see <strong>offensive, unethical or illegal content?</strong><br/>
-          If so, here you can report the user to our administrative team.
+          <p>Did你看<strong>offensive、不道德或非法内容？</strong><br/>
+          如果是这样，这里可以报告的用户到我们的管理团队。
           </p><p>
-          We will check the issue as soon as possible.
+          我们会检查该问题尽快。
           </p>
       messages:
-        created: "Thank you for your message. An administrator was notified."
+        created: "感谢您对您的消息。 管理员是通知。"
   discuss:
     my_questions:
-      link: My Questions
-      title: My new & published questions
+      link: 我的问题
+      title: 我的新的和出版问题
       no_questions: |
-        You haven't created any questions yet. To do so, please click on the question mark button on the left.
-      add: Add New Question
-    translation_request: Please translate this statement to <strong>ENGLISH</strong>.
-    mixed_languages: Mixed up languages
-    set_languages: Set your <strong>LANGUAGE SKILLS</strong> - Wipe out the noise!
-    no_locale_language: Do you speak ENGLISH?
-    adjust_languages: Please define your <strong>ENGLISH language skills</strong>!
+        你还没有造成任何问题。 要做到这一点，请点击问题上的标记。
+      add: 添加新问题
+    translation_request: 请将这一声明<strong>ENGLISH</strong>的。
+    mixed_languages: 混杂的语言
+    set_languages: 设置你的<strong>LANGUAGE SKILLS</strong>-擦出的噪音！
+    no_locale_language: 你会说英语吗？
+    adjust_languages: 请定义<strong>ENGLISH语言skills</strong>!
     results_count:
-      one: '{{count}} question'
-      more: '{{count}} questions'
+      one: '{{count}}问题'
+      more: '{{count}}问题'
     for: |-
-      for '{{value}}'
+      为'{{value}}'
     featured_topics:
-      title: Featured Topics
+      title: 特色主题
       tabs:
         echo:
-          title: About echo
+          title: 回声有关
         pilot_projects:
-          title: Pilot Projects
+          title: 试点项目
     search:
-      title: Search
-      in: '... in {{category}} ...'
-      add: "Create the first question about the topic"
-      placeholder: "Topic and/or place of interest"
+      title: 搜索
+      in: '...在{{category}}...'
+      add: "创建第一个问题有关的主题"
+      placeholder: "主题和/或感兴趣的地方"
     tooltips:
-      read_question: 'Go to this question'
-      read_proposal: 'Read this proposal'
-      read_improvement: 'Read this addition'
-      read_pro_argument: 'Read this PRO argument'
-      read_contra_argument: 'Read this CONTRA argument'
-      read_follow_up_question: 'Read this follow-up question'
-      current_question: 'The currently displayed question'
-      current_proposal: 'The currently displayed proposal'
-      current_improvement: 'The currently displayed addition'
-      current_pro_argument: 'The currently displayed PRO argument'
-      current_contra_argument: 'The currently displayed CONTRA argument'
-      current_background_info: 'The currently displayed background info'
-      current_follow_up_question: 'The currently displayed follow-up question'
-      back_to_question: 'Back to current question'
-      back_to_proposal: 'Back to current proposal'
-      back_to_improvement: 'Back to current addition'
-      prev_question: 'Read previous question in the context shown above'
-      next_question: 'Read next question in the context shown above'
-      prev_proposal: 'Read previous proposal for the current question'
-      next_proposal: 'Read next proposal for the current question'
-      prev_improvement: 'Read previous addition for the current proposal'
-      next_improvement: 'Read next addition for the current proposal'
-      prev_pro_argument: 'Read previous argument for the current proposal'
-      next_pro_argument: 'Read next argument for the current proposal'
-      prev_contra_argument: 'Read previous argument for the current proposal'
-      next_contra_argument: 'Read next argument for the current proposal'
-      prev_background_info: 'See previous background info for the current statement'
-      next_background_info: 'See next background info for the current statement'
-      prev_follow_up_question: 'Read previous follow-up question in the context shown above'
-      next_follow_up_question: 'Read next follow-up question in the context shown above'
-      create_question: 'Create a new question'
-      create_proposal: "Post a new proposal for the current question"
-      create_improvement: "Post a new addition to the current proposal"
-      create_pro_argument: "Post a new PRO argument to the current proposal"
-      create_contra_argument: "Post a new CONTRA argument to the current proposal"
-      create_alternative: "Post a new opposition to this statement"
-      create_background_info: "Recommend a new piece of background information related to this statement"
-      create_follow_up_question: "Post a new new follow-up question concerning this statement"
-      echo: 'echo this statement to support it!'
-      unecho: 'Withdraw your echo to stop supporting this statement'
+      read_question: '转到这个问题'
+      read_proposal: '阅读这项提案'
+      read_improvement: '阅读本外'
+      read_pro_argument: '读这个专业的论点'
+      read_contra_argument: '读到这个禁忌的论点'
+      read_follow_up_question: '读这个后续问题'
+      current_question: '当前显示的问题'
+      current_proposal: '当前显示的提议'
+      current_improvement: '当前显示的外'
+      current_pro_argument: '当前显示的亲参数'
+      current_contra_argument: '当前显示的反的论点'
+      current_background_info: '当前显示的背景信息'
+      current_follow_up_question: '当前显示的后续行动的问题'
+      back_to_question: '回到目前的问题'
+      back_to_proposal: '回到目前的建议'
+      back_to_improvement: '回到目前的外'
+      prev_question: '阅读以前的问题在下文上所示'
+      next_question: '阅读下一个问题在下文上所示'
+      prev_proposal: '阅读以前的建议对于当前问题'
+      next_proposal: '阅读下一项提案，用于目前的问题'
+      prev_improvement: '阅读以前除了针对目前的建议'
+      next_improvement: '阅读下一步除了为目前的建议'
+      prev_pro_argument: '阅读以前的论点对于目前的提议'
+      next_pro_argument: '阅读下一个说法目前的提议'
+      prev_contra_argument: '阅读以前的论点对于目前的提议'
+      next_contra_argument: '阅读下一个说法目前的提议'
+      prev_background_info: '请参阅以前的背景信息对当前的发言'
+      next_background_info: '看到下一步的背景信息对当前的发言'
+      prev_follow_up_question: '阅读以前的后续行动的问题在下文上所示'
+      next_follow_up_question: '阅读下一步后续行动的问题在下文上所示'
+      create_question: '创建一个新的问题'
+      create_proposal: "后一项新建议对于当前问题"
+      create_improvement: "后新增加了目前的建议"
+      create_pro_argument: "后一个新的专业参数的当前提案"
+      create_contra_argument: "发布了新的反论据目前的建议"
+      create_alternative: "发布了新的反对这个声明"
+      create_background_info: "建议一个新的背景信息，与此相关的声明"
+      create_follow_up_question: "后一种新的新后续行动问题，关于这句话"
+      echo: '回这一声明来支持它!'
+      unecho: '撤销你的回声停止支持这一声明'
       publish: |
-        Release the question to make it visible for everybody.
-        (Afterwards no further editing is possible.)
-      incorporate: 'Click here to incorporate this addition into the proposal above.'
+        释放的问题，使它可见于每个人。
+        (事后没有进一步的编辑是可能的。)
+      incorporate: '按这里要把这个加入提案上。'
       siblings:
-        question: See all questions in the context shown above
-        proposal: See all proposals belonging to the current question
-        improvement: See all additions proposed for the current proposal
-        pro_argument: See all arguments belonging to the current proposal
-        contra_argument: See all arguments belonging to the current proposal
-        background_info: See all background infos belonging to the current statement
+        question: 看到的所有问题上所示
+        proposal: 看到的所有建议属于当前问题
+        improvement: 看到所有的补充建议为目前的建议
+        pro_argument: 看到的所有论点，属于目前的提议
+        contra_argument: 看到的所有论点，属于目前的提议
+        background_info: 看到的所有背景的相关信息属于当前的声明
       link_statement: |-
-        Enter a part of the title or paste in the URL of a statement.
-        Afterwards press this button to reuse the statement in the current context.
-      unlink_statement: "Click the button again to unlink the statement."
+        进入一个部分的标题或粘贴在该网址的发言。
+        然后按下这个按钮可以重复使用的语句，在目前上下文中。
+      unlink_statement: "再次点击按键要取消这项声明。"
     statements:
-      label: 'votes'
-      echo_link: 'Support (echo)'
-      unecho_link: 'Withdraw vote'
+      label: '选民'
+      echo_link: '支持(回声)'
+      unecho_link: '撤回投票'
       echo_indicator:
-        one: '{{supporter_count}} supporter'
-        many: '{{supporter_count}} supporters'
-      add_new: New statement
-      embed_button: Embed
-      embed_search_title: Embed search results
+        one: '{{supporter_count}}的支持者'
+        many: '{{supporter_count}}的支持者'
+      add_new: 新的声明
+      embed_button: 嵌入
+      embed_search_title: 嵌入的搜索结果
       embed_search_hint: |-
-        Copy and paste the code below to embed these search results into YOUR website and make an echo in your community.
-      embed_statement_title: Embed statement
+        抄和粘贴到代码之下，以嵌入这些搜索结果进入你的网站，并使回声在你的社区。
+      embed_statement_title: 嵌入的发言
       embed_statement_hint: |-
-        Copy and paste the code below to embed this statement into YOUR website and make an echo in your community.
-      copy_url: Link to
-      copy_url_title: Link to statement
-      copy_url_hint: 'Copy the link to this statement and use it to spread the word via your favorite channels.'
-      create_question_link: 'Create new question'
-      create_proposal_link: Add new proposal
-      create_internal_link: 'New idea?'
-      create_improvement_link: Propose new addition
-      create_pro_argument_link: Add new PRO argument
-      create_contra_argument_link: Add new CONTRA argument
-      create_alternative_link: Add new opposition
-      create_background_info_link: Add new background info
-      create_follow_up_question_link: Add new follow-up question
-      preview_embedded_content: Preview
-      open_embedded_content: Open in new window
+        抄和粘贴到代码之下，以嵌入这一声明成为你的网站，并使回声在你的社区。
+      copy_url: 链接到
+      copy_url_title: 链接到的发言
+      copy_url_hint: '复制链接到该声明并使用它以传播通过你最喜欢的通道。'
+      create_question_link: '创建新的问题'
+      create_proposal_link: 添加新的建议
+      create_internal_link: '新的想法吗？'
+      create_improvement_link: 建议新的外
+      create_pro_argument_link: 添加新的亲参数
+      create_contra_argument_link: 添加新的反的论点
+      create_alternative_link: 添加新的反对派
+      create_background_info_link: 加入新的背景信息
+      create_follow_up_question_link: 添加新的后续问题
+      preview_embedded_content: 的预览
+      open_embedded_content: 在新窗口打开
       statement_language_hint: |
-        Please set your language skills in your <a href='{{url}}'>Profile</a>.
+        请设置自己的语言能力在你的<a href='{{url}}'>Profile</a>的。
       statement_language_hint_tooltip: |
-        This will enable you to enter statements in any language you speak at least at intermediate level.
+        这将使你能够进入发言的任何语言，至少在中级水平。
       drafting_language_hint: |
-        Please note, that the collective advancement of this proposal will only be possible in the selected language!
+        请注意，集体地位的提高，这一建议才有可能在所选择的语言！
       fuq_formulation_hint: |
-        Since follow-up questions also appear as questions in "Search", title and description should both be
-        comprehensible independently of the original discussion.
+        由于后续行动的问题也出现问题中的"搜索"、标题和简介都应该
+        理解独立的原始讨论。
       tag_permission: |
-        You do not have the permission to insert the '{{tag}}' tag.
+        你没有权限插入'{{tag}}'的标签。
       read_permission: |
-        You do not have permission to read this statement.
+        你没有权限来阅读这一发言。
       title_hint:
-        question: Enter the question title in... English?
-        proposal: Enter the proposal title in... English?
-        improvement: Enter the addition title in... English?
-        pro_argument: Enter the PRO argument title in... English?
-        contra_argument: Enter the CONTRA argument title in... English?
-        background_info: Enter the background info title in... English?
-        follow_up_question: Enter the follow-up question title in... English?
+        question: 该问题在...英语吗？
+        proposal: 该提案的标题...英语吗？
+        improvement: 输入的外在标题...英语吗？
+        pro_argument: 输入的专业论题在...英语吗？
+        contra_argument: 进入禁忌的参数标题中...英语吗？
+        background_info: 该背景信息，在标题...英语吗？
+        follow_up_question: 酒后续行动的问题。英语吗？
       text_hint:
         alternative_prefix: |
-          OPPOSITIONS are mutually exclusive to the original statement and all its other alternatives.<br/><br/>
-        question: Please describe the issue in more detail and ask a concrete question...
+          对立是相互排斥的原始声明和所有其他的替代品。<br/><br/>
+        question: 请描述这个问题在更多的细节和要求一个具体的的问题...
         proposal: |
-          Please describe your proposal in more detail...<br/><br/>
-          Depending on the kind of question, a proposal can be understood as a possible answer,
-          solution approach or position to the question.
+          请描述一下你的建议更详细的...<br/><br/>
+          根据这个问题，建议可以被理解为一个可能的答案，
+          解决办法或立场的问题。
         improvement: |
-          Please describe your addition or amendment to the proposal in more detail...<br/><br/>
-          These additions serve as a basis for echos democratic process of joint elaboration and
-          improvement of proposals. The authors of the additions with the greatest support are regularly given the
-          opportunity to incorporate their ideas and thoughts into the proposal.
-        pro_argument: Please describe your point FOR the proposal in more detail...
-        contra_argument: Please describe your point AGAINST the proposal in more detail...
+          请说明您的外或修正案的提案中更详细地...<br/><br/>
+          这些补充为基础的回声民主进程的联合和拟订
+          改进的建议。 提交人的补充，与最大的支持是定期的
+          机会合并他们的想法和想法变成提议。
+        pro_argument: 请描述你的观点为该提案的更多细节...
+        contra_argument: 请描述你的观点反对这项提议的更详细的...
         background_info: |
-          Please describe the recommended background information shortly and tell why you
-          think it is interesting in this context...
-        follow_up_question: Please describe your follow-up question in more detail...
-      tag_hint: 'Enter tags here...'
-      info_url_hint: 'Enter the link to the external content'
-      publish: Release
-      published: The question has been released successfully.
-      edit: 'Edit {{type}}'
+          请描述建议的背景信息，不告诉你为什么
+          觉得有趣的是在这一背景下...
+        follow_up_question: 请描述一下你的后续行动问题的更详细的...
+      tag_hint: '进入标记在这里...'
+      info_url_hint: '进入链接到外部内容'
+      publish: 释放
+      published: 该问题已被释放的成功。
+      edit: '编辑{{type}}'
       types:
-        question: 'Question'
-        proposal: 'Proposal'
-        improvement: 'Addition'
-        pro_argument: 'Pro Argument'
-        contra_argument: 'Contra Argument'
-        alternative: 'Opposition'
-        background_info: 'Background Info'
-        follow_up_question: 'Follow-Up Question'
+        question: '的问题'
+        proposal: '提案'
+        improvement: '除了'
+        pro_argument: '亲参数'
+        contra_argument: '反的论点'
+        alternative: '反对派'
+        background_info: '背景信息'
+        follow_up_question: '后续问题'
       new:
-        question: 'New Question'
-        proposal: 'New Proposal'
-        improvement: 'New Addition'
-        pro_argument: 'New Pro Argument'
-        contra_argument: 'New Contra Argument'
-        background_info: 'New Background Info'
-        follow_up_question: 'New Follow-Up Question'
+        question: '新问题'
+        proposal: '新建议'
+        improvement: '新的外'
+        pro_argument: '新的专业参数'
+        contra_argument: '新的反的论点'
+        background_info: '新的背景信息'
+        follow_up_question: '新的后续问题'
       headings:
-        question: 'Questions'
-        proposal: 'Proposals'
-        improvement: 'Additions'
-        argument: 'Pros & Cons'
-        alternatives: 'Alternatives'
-        background_info: 'Background Infos'
-        follow_up_question: 'Follow-up Questions'
+        question: '的问题'
+        proposal: '提案'
+        improvement: '增加'
+        argument: '优点和缺点'
+        alternatives: '替代品'
+        background_info: '背景信息'
+        follow_up_question: '后续问题'
       sibling_labels:
-        question: 'Questions'
-        proposal: 'Proposals'
-        improvement: 'Additions'
-        argument: 'Arguments'
-        background_info: 'Backgrounds'
-        follow_up_question: 'Questions'
+        question: '的问题'
+        proposal: '提案'
+        improvement: '增加'
+        argument: '参数'
+        background_info: '背景'
+        follow_up_question: '的问题'
       siblings:
-        background_info: 'Background Infos'
-        follow_up_question: 'Follow-up Question in the context shown above'
-      topic: Topic (Tags / Keywords)
+        background_info: '背景信息'
+        follow_up_question: '后续行动的问题在下文上所示'
+      topic: 题目(标记的关键字)
       states:
-        label: 'Publish question immediately?'
+        label: '发布问题立即？'
         initial_state:
-          new: 'Set up at first and publish later'
-          published: 'Publish immediately (further editing will be limited)'
-        published: Released
-        approved: Approved
-      delete_link: 'Delete'
-      delete_confirmation: 'Are you sure you want to delete this statement?'
+          new: '设立第一和发布后'
+          published: '立即发布的(进一步的编辑将是有限的)'
+        published: 释放
+        approved: 批准
+      delete_link: '删除'
+      delete_confirmation: '你确定要删除这个声明吗？'
       read_only_permission: |-
-        This is a transparent but currently closed discussion, you are only allowed to read.
+        这是一个透明的但是目前的讨论中，你只能阅读。
       unsupported_parent: |-
-        You can only support additions if you support the proposal itself.
+        你只能支持补充，如果你支持这项建议本身。
       not_approved_any_more: |-
-        Unfortunately, this addition cannot be incorporated any longer.
+        不幸的是，此外，不能纳入任何更长的时间。
       see_parent_if_approved: |-
-        The requested addition is currently approved to be incorporated into the proposal below.
+        所请求之外，目前已批准将被纳入该提案如下。
       see_parent_if_incorporated: |-
-        The requested addition has already been incorporated into the proposal below.
+        请求除了已经纳入建议如下。
       being_edited: |-
-        The statement is currently being edited. Please try again later.
+        该声明目前正在编辑中。 请稍后再试一次。
       statement_updated: |-
-        This {{type}} has just been updated by another person.
+        这{{type}}刚刚经过更新的通过另一个人。
       statement_supported: |-
-        Thanks for making an echo to the {{type}}.
+        谢谢你回到{{type}}的。
       statement_unsupported: |-
-        You withdrew your echo from the {{type}}.
+        你撤离你的回声从{{type}}的。
       edit_period_hint: |
-        You have <strong>{{minutes}} minutes</strong> to edit the statement.
-        Afterwards, your modifications might even get discarded.
-      staled_modification: 'We are very sorry, but you exceeded the 60 minutes limit to edit and save the statement. Meanwhile it has already been updated by a different user. Therefore, your changes must have been unfortunately discarded.'
-      no_document_in_language: 'The statement does not exist in English yet.'
-      supporter_to_share: 'You must be a supporter of this statement in order to share it!'
-      published_to_share: 'This discussion is yet to be published. Until then, it is not possible to share it.'
-      cannot_be_edited: Unfortunately, you cannot edit this statement after other members supported it. This is to avoid faking of opinions.
-      cannot_be_linked: Unfortunately this statement cannot be linked in the current context.
-      echos_label: Support
+        你有<strong>{{minutes}}minutes</strong>编辑的发言。
+        事后，你的修改，甚至可能会被丢弃。
+      staled_modification: '我们非常抱歉，但是你超过60分钟的限制，编辑和保存的声明。 与此同时，它已经更新，由一个不同的用户。 因此，您必须改变已不幸的是废弃。'
+      no_document_in_language: '该声明不存在的英语。'
+      supporter_to_share: '你必须支持这一声明，以便分享它！'
+      published_to_share: '这种讨论尚未发表。 在那之前，它是不可能的分享。'
+      cannot_be_edited: 不幸的是，你不能编辑本声明之后，其他成员的支持。 这是为了避免伪装的意见。
+      cannot_be_linked: 不幸的是，这个声明不能在目前上下文中。
+      echos_label: 支持
       linking:
-        disabled: Link
-        enabled: Linked
+        disabled: 链接
+        enabled: 链接
       breadcrumbs:
-        discuss_search: Search results
-        my_questions: My Questions
+        discuss_search: 搜索结果
+        my_questions: 我的问题
         labels:
           ds: ''
           mi: ''
-          sr: 'Questions found for'
-          pr: 'Proposals for'
-          im: 'Additions for'
-          ar: 'Arguments for'
-          bi: 'Background Infos for'
-          fq: 'Follow-up Questions for'
-          jp: 'Following link in'
+          sr: '问题找到'
+          pr: '建议'
+          im: '增加'
+          ar: '参数'
+          bi: '背景信息'
+          fq: '后续行动的问题'
+          jp: '下面的链接'
           over:
-            ds: 'Back to'
-            mi: 'Back to'
-            sr: 'Back to search results for'
-            pr: 'Back to'
-            im: 'Back to'
-            ar: 'Back to'
-            bi: 'Back to'
-            fq: 'Back to'
-            jp: 'Back to'
+            ds: '回到'
+            mi: '回到'
+            sr: '回搜索结果'
+            pr: '回到'
+            im: '回到'
+            ar: '回到'
+            bi: '回到'
+            fq: '回到'
+            jp: '回到'
       upload_image:
-        title: Upload Image
-        guide: Please <strong>select an image</strong> (JPG or PNG, max. 5MB) and upload it.
-        progress: The image is being uploaded. Please wait...
-        error: The image couldn't be applied. Please upload a supported format (JPG or PNG and max. 5MB).
+        title: 图像上传
+        guide: 请<strong>select一image</strong>(JPG或PNG,max。 5MB)和上传。
+        progress: 图像正在上传。 请等等...
+        error: 图像不能被应用。 请上传一个支持格式(JPG或PNG和最大。 5MB).
       add_teaser:
         question: |
-          This is where YOUR question could appear.<br/><br/>Have you got one?<br/><br/>
-          Press the button above to enter it NOW!
+          这就是你的问题可能会出现。<br/><br/>Have你有一个吗？<br/><br/>
+          按上面的按钮输入它现在！
         proposal: |
-          This is where YOUR proposal to the question could appear.<br/><br/>Have you got one?<br/><br/>
-          Press the button above to enter it NOW!
+          这就是你的建议问题可能会出现。<br/><br/>Have你有一个吗？<br/><br/>
+          按上面的按钮输入它现在！
         improvement: |
-          This is where YOUR addition or amendment to the proposal could appear.<br/><br/>Have you got one?<br/><br/>
-          Press the button above to enter it NOW!
+          这是你的外或修正案的提案能够出现。<br/><br/>Have你有一个吗？<br/><br/>
+          按上面的按钮输入它现在！
         pro_argument: |
-          This is where your argument FOR the proposal could appear.<br/><br/>Have you got one?<br/><br/>
-          Press the button above to enter it NOW!
+          这就是你的论点的提案能够出现。<br/><br/>Have你有一个吗？<br/><br/>
+          按上面的按钮输入它现在！
         contra_argument: |
-          This is where your argument AGAINST the proposal could appear.<br/><br/>Have you got one?<br/><br/>
-          Press the button above to enter it NOW!
+          这是你的参数反对这项建议可能出现。<br/><br/>Have你有一个吗？<br/><br/>
+          按上面的按钮输入它现在！
         background_info: |
-          This is where a new background info related to the current statement could appear.<br/><br/>
-          Would you like to recommend one?<br/><br/>
-          Press the button above to enter it NOW!
+          这是一个新的背景信息有关的当前的声明可能会出现。<br/><br/>
+          你想推荐一个吗？<br/><br/>
+          按上面的按钮输入它现在！
         follow_up_question: |
-          This is where YOUR follow-up question could appear.<br/><br/>Have you got one?<br/><br/>
-          Press the button above to enter it NOW!
+          这是你的后续行动的问题可能会出现。<br/><br/>Have你有一个吗？<br/><br/>
+          按上面的按钮输入它现在！
     summary:
-      title: 'Summary'
+      title: '摘要'
     messages:
-      created: "The new {{type}} has been entered successfully."
-      updated: "The {{type}} has been updated successfully."
-      deleted: "The {{type}} has been deleted successfully."
-      translated: "The {{type}} has been translated successfully."
-      incorporated: "The addition has been successfully incorporated into the proposal."
-      image_uploaded: "The illustration image has been added to the {{type}}."
-      new_percentage: "Your profile is {{percentage}}% complete."
+      created: "新{{type}}已经输入了成功。"
+      updated: "该{{type}}已成功更新。"
+      deleted: "该{{type}}已经删除成功。"
+      translated: "该{{type}}已经被翻译成功。"
+      incorporated: "此外，已经成功地纳入该提案。"
+      image_uploaded: "图像已被添加到{{type}}的。"
+      new_percentage: "你的档案是{{percentage}}%完成。"
   connect:
     fill_out_profile:
-      text: 'Please fill out <strong>at least {{percentage}}%</strong> of your profile to make "the computer" happy and let this block disappear. :-)'
-      name: 'My Profile'
-      description: 'Complete your profile to present yourself in the echo community.'
-    placeholder: 'Topic, place, organization or name of interest'
+      text: '请填写<strong>at少{{percentage}}%</strong>你的个人资料使"计算机"乐意让这块消失。 :-)'
+      name: '我的档案'
+      description: '完成你的档案明自己在回的社区。'
+    placeholder: '主题、地点、组织或名称的兴趣'
     segments:
-      all: 'All'
-      affection: 'Impacted'
-      engagement: 'Engaged'
-      expertise: 'Experts'
-      decision_making: 'Decision Makers'
+      all: '所有'
+      affection: '受到影响'
+      engagement: '从事的'
+      expertise: '专家'
+      decision_making: '决策者'
     results_count:
       all:
         no_filter:
-          one: 'person'
-          more: 'people'
+          one: '人'
+          more: '人'
         with_filter:
-          one: "person related to '{{filter}}'"
-          more: "people related to '{{filter}}'"
+          one: "人相关的'{{filter}}'"
+          more: "人相关的'{{filter}}'"
       affection:
         no_filter:
-          one: impacted person
-          more: impacted people
+          one: 受影响的人
+          more: 受影响的人
         with_filter:
-          one: "person impacted by '{{filter}}'"
-          more: "people impacted by '{{filter}}'"
+          one: "人的影响'{{filter}}'"
+          more: "人民受到'{{filter}}'"
       engagement:
         no_filter:
-          one: engaged person
-          more: engaged people
+          one: 从事人
+          more: 从事人
         with_filter:
-          one: "person engaged in '{{filter}}'"
-          more: "people engaged in '{{filter}}'"
+          one: "人从事的'{{filter}}'"
+          more: "人们从事的'{{filter}}'"
       expertise:
         no_filter:
-          one: expert
-          more: experts
+          one: 专家
+          more: 专家
         with_filter:
-          one: "expert in '{{filter}}'"
-          more: "experts in '{{filter}}'"
+          one: "专家在'{{filter}}'"
+          more: "专家在'{{filter}}'"
       decision_making:
         no_filter:
-          one: decision maker
-          more: decision makers
+          one: 决策者
+          more: 决策者
         with_filter:
-          one: "decision maker in '{{filter}}'"
-          more: "decision makers in '{{filter}}'"
+          one: "决策者在'{{filter}}'"
+          more: "决策者在'{{filter}}'"
     details:
       tabs:
-        overview: 'Overview'
-        concernments: 'Competences'
-        web_addresses: 'Web Addresses'
+        overview: '概述'
+        concernments: '管辖权'
+        web_addresses: '网址'
       actions:
-        report: "Report"
-        send_mail: "Send Message"
+        report: "报告"
+        send_mail: "发送消息"
     messages:
-      empty: 'No members found. Please change your search criteria.'
-      no_concernments: "This member hasn't defined any concernments and competences, yet."
-      no_web_addresses: "This member hasn't defined any web addresses, yet."
+      empty: '没有任何成员发现。 请你的搜索标准。'
+      no_concernments: "这件没有定义的任何concernments和能力。"
+      no_web_addresses: "这件没有界定任何网站地址。"
   feedback:
     new:
-      title: Feedback
+      title: 反馈
       welcome: |
         <p>
-        <strong>We are happy to hear your opinion!</strong><br/>
+        <strong>We很乐意听听你的意见！</strong><br/>
         </p><p>
-        Do not hesitate to ask questions, make comments or to leave a criticism or kudos for us.
+        毫不犹豫地提出问题、作出评论或离开批评或荣誉。
         </p>
-      message: Message
-      send: Send message
+      message: 消息
+      send: 发送消息
     create:
-      thank_you: Thank you for your feedback.
+      thank_you: 谢谢您的反馈意见。
   user_mail:
     new:
-      title: Send Mail
-      guide: Here you can send an E-Mail to contact the selected echo member.
-      subject: Subject
-      text: Message
+      title: 发送邮件
+      guide: 在这里你可以发送电子邮件联系选定的回声件。
+      subject: 受
+      text: 消息
     create:
-      thank_you: Your message has been sent successfully.
+      thank_you: 您的信息已经发送成功。
   activerecord:
     errors:
       models:
         feedback:
           attributes:
-            blank: 'Please fill out all fields.'
+            blank: '请填写的所有领域。'
             email:
-              invalid: 'Please enter a valid E-Mail address.'
+              invalid: '请输入一个有效的电子邮件地址。'
         newsletter:
           attributes:
-            blank: 'Please fill out all fields.'
+            blank: '请填写的所有领域。'
             email:
-              invalid: 'Please enter a valid E-Mail address.'
+              invalid: '请输入一个有效的电子邮件地址。'
         user:
           attributes:
             email:
-              taken: 'The E-Mail address is already in use.'
-              invalid: 'Please enter a valid E-Mail address.'
+              taken: '电子邮件地址已经在使用。'
+              invalid: '请输入一个有效的电子邮件地址。'
             password:
-              invalid: 'Wrong password.'
+              invalid: '密码错误。'
         social_identifier:
-          taken: 'This Social Account is already in use. Please log in with it!'
+          taken: '这个社会的账户已经在使用。 请登录。'
       messages:
-        blank: "The field '{{attribute}}' must not be empty."
-        taken: 'Is already in use.'
-        too_short: "Your input for '{{attribute}}' is too short."
-        too_long: "Your input for '{{attribute}}' is too long."
-        invalid: "Your input for '{{attribute}}' must be in a valid format."
-        confirmation: '{{attribute}} confirmation does not match.'
-        access_denied: "You are not allowed to perform this action."
+        blank: "该领域的'{{attribute}}'必须不是空的。"
+        taken: '已经在使用。'
+        too_short: "你输入'{{attribute}}'是太短。"
+        too_long: "你输入'{{attribute}}'太长。"
+        invalid: "你输入'{{attribute}}'必须在一个有效的格式。"
+        confirmation: '{{attribute}}确认不匹配。'
+        access_denied: "你是不是允许执行这一行动。"
       template:
         header:
-          other: "{{count}} fields are filled incorrectly."
-        body: "Please correct the following:"
+          other: "{{count}}领域都充满了不正确。"
+        body: "请更正如下："
     attributes:
       profile:
-        email: E-Mail
-        full_name: Name
-        gender: Gender
-        city: City
-        country: Country
-        location: Location
-        about_me: About me
-        motivation: Thoughts about echo
-        memberships: Activities
-        spoken_languages: Language skills
+        email: 电子邮件
+        full_name: 名称
+        gender: 性别问题
+        city: 城市
+        country: 国
+        location: 位置
+        about_me: 关于我的
+        motivation: 想回声
+        memberships: 活动
+        spoken_languages: 语言技能
       report:
-        reason: 'Reason'
+        reason: '的原因'
       web_address:
-        location: 'Web Address'
+        location: '网址'
       membership:
-        position: My role
+        position: 我的角色
       statement_node:
-        image: 'Image file'
+        image: '像文件'
       statement_document:
-        language_id: 'Language'
-        language: 'Language'
-        title: 'Title'
-        text: 'Summary'
-        image: 'Illustration'
+        language_id: '语言'
+        language: '语言'
+        title: '标题'
+        text: '摘要'
+        image: '图'
       statement:
-        info_type_id: 'Content Type'
+        info_type_id: '内容类型'
       statement_data:
-        info_url: 'Background Info Link'
+        info_url: '背景资料的链接'
       about_item:
-        photo: 'Photo'
-        name: 'Name'
-        responsibility: 'Responsibility'
-        description: 'Description'
-        about_category_id: 'About Item'
-        index: 'Index'
+        photo: '照片'
+        name: '名称'
+        responsibility: '责任'
+        description: '描述'
+        about_category_id: '关于项目'
+        index: '索引'
     models:
-      question: "question"
-      proposal: "proposal"
-      improvement: "addition"
-      pro_argument: 'pro argument'
-      contra_argument: 'contra argument'
-      follow_up_question: 'follow-up question'
+      question: "的问题"
+      proposal: "提案"
+      improvement: "除了"
+      pro_argument: '亲参数'
+      contra_argument: '反的论点'
+      follow_up_question: '后续问题'
   authlogic:
     error_messages:
-      email_invalid: "Please enter a correct e-mail address."
-      password_blank: "Password must be defined."
-      not_active: "Your account has not been activated yet. Please check your inbox."
-      must_be_logged_in: "Please log in to perform this action."
-      must_be_logged_out: "Please log out to perform this action."
+      email_invalid: "请输入正确的电子邮件地址。"
+      password_blank: "密码必须加以定义。"
+      not_active: "你的帐户还没有被激活。 请检查你的收件箱。"
+      must_be_logged_in: "请登录在执行这一行动。"
+      must_be_logged_out: "请登出来执行这一行动。"
     attributes:
       user_session:
-        email: E-Mail
-        password: Password
+        email: 电子邮件
+        password: 密码
   date:
     formats:
-      default: "%d.%m.%Y"
-      short: "%e. %b"
-      long: "%e. %B %Y"
+      default: "%d的。%m。%Y"
+      short: "%e的。 %b"
+      long: "%e的。 %B%Y"
       only_day: "%e"
       month_name: "%B"
       day_name: "%a"
     day_names:
-      - Sunday
-      - Monday
-      - Tuesday
-      - Wednesday
-      - Thursday
-      - Friday
-      - Saturday
+      - 周日
+      - 星期一
+      - 星期二
+      - 星期三
+      - 星期四
+      - 星期五
+      - 星期六
     abbr_day_names:
-      - Su
+      - 苏
       - Mo
       - Tu
-      - We
+      - 我们
       - Th
       - Fr
       - Sa
     month_names:
       - null
-      - January
-      - February
-      - March
-      - April
-      - May
-      - June
-      - July
-      - August
-      - September
-      - October
-      - November
-      - December
+      - 一月
+      - 二月
+      - 三月
+      - 四月
+      - 可
+      - 六月
+      - 七月
+      - 八月
+      - 九月
+      - 十月
+      - 十一月
+      - 十二月
     abbr_month_names:
       - null
       - Jan
-      - Feb
-      - Mar
+      - 二月
+      - 玛
       - Apr
-      - Mai
+      - 迈
       - Jun
       - Jul
       - Aug
@@ -864,55 +864,55 @@ zh-TW:
       - Nov
       - Dec
     order:
-      - ':day'
-      - ':month'
-      - ':year'
+      - '：一天'
+      - ':月'
+      - 年份
   time:
     formats:
-      default: "%a, %d. %B %Y"
-      short: "%e. %B, %H:%M o'clock"
-      long: "%A, %e. %B %Y, %H:%M o'clock"
+      default: "%a,%d的。 %B%Y"
+      short: "%e的。 %B,%H:%M点"
+      long: "%A,%e的。 %B%Y%H:%M点"
       time: "%H:%M"
-    am: "in the morning"
-    pm: "in the afternoon"
+    am: "在早晨"
+    pm: "在下午"
   datetime:
     distance_in_words:
-      half_a_minute: 'half a minute'
+      half_a_minute: '半分钟'
       less_than_x_seconds:
-        other: 'less than {{count}} seconds'
+        other: '少于{{count}}秒'
       x_seconds:
-        other: '{{count}} seconds'
+        other: '{{count}}秒'
       less_than_x_minutes:
-        other: 'less than {{count}} minutes'
+        other: '少于{{count}}分钟'
       x_minutes:
-        other: '{{count}} minutes'
+        other: '{{count}}分钟'
       about_x_hours:
-        other: 'about {{count}} hours'
+        other: '关于{{count}}小时'
       x_days:
-        other: '{{count}} days'
+        other: '{{count}}天'
       about_x_months:
-        other: 'about {{count}} months'
+        other: '关于{{count}}个月'
       x_months:
-        other: '{{count}} months'
+        other: '{{count}}个月'
       about_x_years:
-        other: 'about {{count}} years'
+        other: '关于{{count}}年'
       over_x_years:
-        other: 'over {{count}} years'
+        other: '在{{count}}年'
     prompts:
-      second: "seconds"
-      minute: "minutes"
-      hour: "hours"
-      day: "day"
-      month: "month"
-      year: "year"
+      second: "几秒钟"
+      minute: "分钟"
+      hour: "小时"
+      day: "一天"
+      month: "一个月"
+      year: "年"
   number:
     format:
       precision: 2
       separator: ','
-      delimiter: '.'
+      delimiter: '中。'
     currency:
       format:
-        unit: '€'
+        unit: '欧元'
         format: '%n%u'
         separator: ""
         delimiter: ""
@@ -931,10 +931,10 @@ zh-TW:
         format: "%n %u"
         units:
           byte:
-            other: "Bytes"
+            other: "字节"
           kb: "KB"
           mb: "MB"
           gb: "GB"
           tb: "TB"
   newsletters:
-    send_confirmation: Are you sure?
+    send_confirmation: 你确定吗？
