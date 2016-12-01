@@ -1,932 +1,932 @@
 uk:
   application:
-    unexpected_error: An unexpected error has occurred. Sorry for the inconvenience.
-    routing_error: Unknown URL. Redirecting...
-    remote_error: 'Failed to communicate with the Remote Service.'
+    unexpected_error: Неочікувана помилка. Вибачте за незручності.
+    routing_error: Невідомий URL-адресу. Перенаправлення...
+    remote_error: 'Не вдалося зв''язатися з віддаленим сервісом.'
     general:
-      more: more »
-      hide: '« okay'
-      next: Next
-      back: Back
-      name: Name
-      undefined: Not yet entered
-      email: E-Mail
-      email_confirmation: Confirm E-Mail
-      ok: Ok
-      or: or
-      save: Save
-      edit: Edit
-      cancel: Cancel
-      close: Close
-      send: Send
-      upload: Upload
-      delete: Delete
-      create: Add
-      incorporate: Incorporate
-      welcome: Welcome
-      all: All
-      authors: Authors
-      share_action: 'Make an echo!'
+      more: детальніше »
+      hide: '« добре'
+      next: Далі
+      back: Тому
+      name: Назва
+      undefined: Ще не ввели
+      email: Електронної Пошти
+      email_confirmation: Підтвердження Адреси Електронної Пошти
+      ok: Ок
+      or: або
+      save: Зберегти
+      edit: Редагувати
+      cancel: Скасувати
+      close: Поруч
+      send: Відправити
+      upload: Завантажити
+      delete: Видалити
+      create: Додати
+      incorporate: Включити
+      welcome: Ласкаво просимо
+      all: Всі
+      authors: Автори
+      share_action: 'Зробити Луна!'
     roadmap:
-      title: Roadmap
-      progress_tooltip: 'This area of echo is {{progress}}% ready.'
-      status_quo: 'Status Quo'
-      next_steps: 'Next Steps'
-      vision: 'At The End of The Road'
+      title: Дорожня карта
+      progress_tooltip: 'У цьому районі Ехо {{progress}}% готовий.'
+      status_quo: 'Статус-Кво'
+      next_steps: 'Наступні Кроки'
+      vision: 'В кінці дороги'
       discuss:
-        status_quo: 'echo "Discuss" is currently <strong>{{progress}}% ready</strong>.'
-        next_steps: 'The first features of echo "Discuss" have been released. Its functionality will be extended step by step in the next releases.'
+        status_quo: 'Ехо "обговорити" в даний час <strong>{{progress}}% ready</strong>.'
+        next_steps: 'Перші ознаки Ехо "обговорення" були звільнені. Його функціональність буде розширена крок за кроком в наступних випусках.'
       connect:
-        status_quo: 'echo "Connect" is currently <strong>{{progress}}% ready</strong>.'
-        next_steps: 'echo "Connect" will be enhanced after the first features of echo "Discuss" and echo "Act" have been released.'
+        status_quo: 'Ехо "підключитися" в даний час <strong>{{progress}}% ready</strong>.'
+        next_steps: 'Ехо "підключити" буде посилено після перших ознак Луни "обговорюють" і Закон Ехо "", були звільнені.'
       act:
-        status_quo: 'echo "Act" is currently <strong>{{progress}}% ready</strong>.'
-        next_steps: 'The development of echo "Act" will begin after the first functions of echo "Discuss" have been released.'
+        status_quo: 'в даний час закон Луни " - це <strong>{{progress}}% ready</strong>.'
+        next_steps: 'Розробка Закону Ехо "" почнеться після першої функції Ехо "обговорення" були звільнені.'
       my_echo:
-        status_quo: 'The "My echo" area is currently <strong>{{progress}}% ready</strong>.'
-        next_steps: 'Further development of this area is planned after some basic functionality of "Discuss, Connect and Act" has been released.'
+        status_quo: '"Моє Відлуння" області в даний час <strong>{{progress}}% ready</strong>.'
+        next_steps: 'Подальший розвиток цього напрямку планується після деякі основні функціональні можливості обговорити, Підключення і Закон" була випущена.'
         vision: |
           <p>
-          In the long term, the My echo area will be your <strong>personal information hub</strong> inside of echo. E.g. it will provide
-          you with the most <strong>important news</strong> and call your attention to the most <strong>recent discussions and actions</strong> according
-          to your preferences.
+          У довгостроковій перспективі, моє Відлуння району будуть Вашими <strong>personal інформація hub</strong> Луна. Е. р. це забезпечить
+          ви з найбільш <strong>important news</strong> і звернути Вашу увагу на найбільш <strong>recent дискусії і actions</strong> за
+          з вашими вподобаннями.
           </p>
   help:
     discuss:
       closed_discussions:
-        hint: Tags to create closed discussions...
+        hint: Теги для створення закритих обговорень...
         text: |
-          <p>Defining a *tag (starting with ONE *) will make this discussion semi-closed. Users must define the same
-          *tag as a decision making tag in their profile to be able to participate in the discussion, however it
-          will remain visible and transparent to the outside world.</p>
-          <p>Defining a **tag (with TWO **) will make this discussion fully closed. It will only be visible for users
-          having the same **tag as a decision making tag in their profile.</p>
-          <p>Please note, that this is just a temporary solution to facilitate closed discussions in echo. The real
-          solution with circles, invitations and fine-graded access right management will be coming later.</p>
+          <p>Defining в *тег (починаючи з *) зробить цю дискусію напівзакритий. Користувачі повинні визначити той же
+          *бирка, як зробити тег в свій профіль, щоб мати можливість брати участь в обговоренні, однак
+          буде залишатися видимим і прозорим для зовнішнього світу.</p>
+          <p>Defining а **тег (з двома **) зробить цю дискусію повністю закритий. Він буде видний тільки для користувачів
+          маючи той же **тег як рішення тег в свій профіль.</p>
+          <p>Please зверніть увагу, що це лише тимчасове рішення, щоб полегшити закритих обговорень в Ехо. Реальний
+          рішення з колами, запрошення і тонкодисперсного управління правами доступу буде приходити пізніше.</p>
     profile:
       closed_discussions:
-        hint: Tags to access closed discussions...
+        hint: Теги отримати доступ до закритої дискусії...
         text: |
-          <p>Here you can enter the appropriate *tags and **tags as decision making tags. This will allow you to
-          take part in transparent, semi-closed discussions (tagged with *tag) and to see closed, internal
-          ones (protected with **tag) respectively.</p>
-          <p>Please note, that this is just a temporary solution to facilitate closed discussions in echo. The real
-          solution with circles, invitations and fine-graded access right management will be coming later.</p>
+          <p>Here ви можете ввести відповідний *теги і **теги рішення теги роблячи. Це дозволить вам
+          взяти участь у прозорі, Semi-закритої обговорення (позначені *тег) і побачити закриті, внутрішні
+          ті (захищений **тег) відповідно.</p>
+          <p>Please зверніть увагу, що це лише тимчасове рішення, щоб полегшити закритих обговорень в Ехо. Реальний
+          рішення з колами, запрошення і тонкодисперсного управління правами доступу буде приходити пізніше.</p>
   layouts:
     tabs:
-      discuss: Discuss
-      connect: Connect
-      act: Act
-      my_echo: My echo
-      admin: Admin
+      discuss: Обговорити
+      connect: Підключення
+      act: Акт
+      my_echo: Моє Відлуння
+      admin: Адмін
     outer_menu:
-      language: Language
-      feedback: Feedback
-      about: About us
-      logout: Logout
-      imprint: Imprint
-      data_privacy: Data Privacy
+      language: Мова
+      feedback: Відгуки
+      about: Про нас
+      logout: Вихід
+      imprint: Відбиток
+      data_privacy: Конфіденційність Даних
     discuss:
       tabs: ""
     connect:
       tabs:
-        search: Explore Community
+        search: Вивчити Спільноти
     act:
       tabs: ""
     my_echo:
       tabs:
-        welcome: Welcome
-        profile: My Profile
-        settings: Settings
-      profile_complete: '{{complete}}% complete'
+        welcome: Ласкаво просимо
+        profile: Мій Профіль
+        settings: Параметри
+      profile_complete: '{{complete}}% повний'
   users:
-    anonym: Anonym
+    anonym: Анонім
     authors:
       teaser:
-        title: 'Become a co-author!'
+        title: 'Стати співавтором!'
     remote_auth:
       input_default:
-        openid: Your OpenID URL
+        openid: URL вашого OpenID
     signup:
-      label: 'Register'
-      member_tag: Not a member yet?
-      via_echo: '... via E-Mail'
-      via_social: '... via existing account'
+      label: 'Зареєструватися'
+      member_tag: Ще не зареєструвався?
+      via_echo: '... по електронній пошті'
+      via_social: '... через існуючий обліковий запис'
     setup_basic_profile:
-      title: 'Setup Basic Profile'
-      guide: Please fill in your basic profile information to set up your account.
-      agreement: I have read and agree to the terms of data policy.
-      use_photo: 'Use in echo, too'
+      title: 'Параметри Основного Профілю'
+      guide: Будь ласка, заповніть ваш основний профіль інформації, щоб налаштувати обліковий запис.
+      agreement: Я прочитав і згоден з умовами політики даних.
+      use_photo: 'Використовувати в Луна, '
     signin:
-      label: 'Login'
-      password: 'Password'
-      member_tag: Already a member?
-      via_echo: '... via echo'
-      via_social: '... via a connected account'
-      set_password: Forgot your password?
-      remember: Remember me!
-      hello: Logged in<br/><strong>{{name}}</strong>
+      label: 'Логін'
+      password: 'Пароль'
+      member_tag: Вже є учасником?
+      via_echo: '... через Ехо'
+      via_social: '... через підключеного облікового запису'
+      set_password: Забули пароль?
+      remember: Пам'ятаєш мене!
+      hello: Реєструється in<br/><strong>{{name}}</strong>
       hint: |
-        To prevent others from logging in without having to enter your password,
-        please logout of the used social account (e.g. Facebook, Twitter) in the end explicitely.
+        Щоб запобігти інших від входу в систему без необхідності введення пароля
+        будь ласка, вийдіть з соціальних облікового запису (наприклад, Facebook, Twitter), а в кінці явно.
       messages:
-        success: "Login successful. Welcome back to echo."
-        failed: "Unknown user or wrong password."
-        failed_social: Please log in with an account you registered with or that you connected to your echo account.
+        success: "Логін успішний. Ласкаво просимо в Ехо."
+        failed: "Невідомий користувач або невірний пароль."
+        failed_social: Будь ласка, увійдіть в систему з обліковим записом ви зареєстровані, або що ви підключені до Вашого облікового запису Ехо.
     signout:
       messages:
-        success: "Logout successful. Please don't forget to also logout from Facebook & co. See you later. Bye!"
+        success: "Вихід успішним. Будь ласка, не забудьте вийти з Facebook і ко. Побачимося пізніше. Тю!"
     user_sessions:
       messages:
-        session_timeout: "Your session has expired. Please log in again."
+        session_timeout: "Час вашого сеансу минув. Будь ласка, увійдіть в систему знову."
     activation:
       messages:
-        success: Your account has been successfully created. Welcome to echo!
+        success: Ваш аккаунт був успішно створений. Ласкаво просимо в Луна!
         failed: |-
-          <p>Your account could not be activated. Please check your input.</p>
-        email_success: Your E-mail has been changed successfully!
-        already_active: Your account is already active!
-        no_account: Your account does not exist!
-        no_full_name: Please fill in your full name.
-        no_agreement: Please confirm our data policy in order to register.
+          Рахунки <p>Your не може бути активований. Будь ласка, перевірте ваш enter.</p>
+        email_success: Ваша адреса електронної пошти успішно змінено!
+        already_active: Ваш обліковий запис вже активовано!
+        no_account: Вашого облікового запису не існує!
+        no_full_name: Будь ласка, заповніть ваше повне ім'я.
+        no_agreement: Будь ласка, підтвердіть наші політики дані для реєстрації.
     password_reset:
-      step1: Require new password
-      step2: Define new password
+      step1: Вимагають новий пароль
+      step2: Визначити новий пароль
       step1_text: |
-        <p>Forgot your password or you would simply like to define a new one?</p>
-        <p>No problem! Just fill in your E-Mail address you used to register in echo.
-        We will send you an E-mail shortly allowing you to define a new password.</p>
-      step1_mail: Send E-Mail
+        <p>Forgot Ваш пароль, або ви просто хочете визначити новий?</p>
+        <p>No проблема! Просто введіть адресу електронної пошти, який Ви використовували для реєстрації в Ехо.
+        Ми надішлемо вам електронною поштою, що дозволяє вам задати новий пароль.</p>
+      step1_mail: Відправити По Електронній Пошті
       step2_text: |
-        Please define your new password you would like to use to log in to echo.
-      step2_ok: Set new password
+        Будь ласка, вкажіть Ваш новий пароль, який ви хотіли б використовувати для входу в "Ехо".
+      step2_ok: Встановити новий пароль
       messages:
-        success: "We have sent you an E-mail allowing you to reset your password. Please check your inbox."
-        not_found: "Unknown E-Mail address."
-        reset_success: "Your new password has been saved successfully."
-        reset_failed: "Your password could not be updated. Please check your input."
+        success: "Ми відправили вам по електронній пошті, що дозволяє Вам скинути пароль. Будь ласка, перевірте Вашу поштову скриньку."
+        not_found: "Невідомий адресу електронної пошти."
+        reset_success: "Ваш новий пароль було успішно збережено."
+        reset_failed: "Ваш пароль не може бути оновлений. Будь ласка, перевірте ваш enter."
     profile:
-      to: Go to profile
-      title: Personal Information
-      edit_title: Edit your personal information
-      guide: Below you find your basic personal information. Please press the Edit button to change it.
+      to: Перейти в профіль
+      title: Особиста Інформація
+      edit_title: Змінити вашу особисту інформацію
+      guide: Нижче Ви знайдете основну особисту інформацію. Будь ласка, натисніть кнопку змінити, щоб змінити це.
       gender:
-        male: Male
-        female: Female
-      location: Location
+        male: Чоловік
+        female: Жінка
+      location: Розташування
       password:
-        title: Change password
-        old: Current password
-        new: New password
-        confirm: Confirm new password
+        title: Зміна пароля
+        old: Поточний пароль
+        new: Новий пароль
+        confirm: Підтвердіть новий пароль
       picture:
-        upload_button: Change
+        upload_button: Зміна
       upload_picture:
-        title: Upload Picture
-        guide: Please <strong>select a picture</strong> (JPG or PNG, max. 5MB) and upload it.
-        progress: Your avatar is being uploaded. Please wait...
+        title: Завантажити Фотографію
+        guide: Будь ласка, <strong>select в picture</strong> (jpg або PNG, Макс. 5 Мб) і завантажити його.
+        progress: Ваш аватар буде завантажений. Будь ласка, зачекайте...
       messages:
-        updated: "Profile information updated successfully."
-        image_invalid: 'is invalid or inaccessible'
+        updated: "Профіль інформація успішно оновлено."
+        image_invalid: 'недійсний або недоступний'
     spoken_languages:
-      title: Language Skills
+      title: Мовні Навички
       guide: |
-        Here you can enter your language skills to <strong>see content only in languages you speak</strong>.<br/>
-        Additionally, it will enable you to contribute to echos cross-language, intercultural dialogs by
-        <strong>translating statements</strong> between languages you speak <strong>at least intermediate level</strong>.
-        This is to ensure good content quality.<br/>
-        Please don't forget to also set your <strong>mother language</strong>.
-      language: Language
-      level: Level
+        Тут ви можете ввести свої мовні навички в <strong>see тільки в мовах ви speak</strong>.<br/>
+        Крім того, це дозволить вам внести свій внесок в Ехо міжмовного, міжкультурного діалогу
+        <strong>translating statements</strong> між мовами ви говорите <strong>at не нижче Intermediate level</strong>.
+        Це потрібно для забезпечення хорошої якості.<br/>
+        Будь ласка, не забудьте також встановити <strong>mother language</strong>.
+      language: Мова
+      level: Рівень
       error_messages:
-        repeated_instance: This language is already defined.
+        repeated_instance: Ця мова вже визначено.
     memberships:
-      title: Activities
-      guide: Here you can enter your voluntary, professional and other kinds of activities in different organisations.
-      organisation: Organisation
-      position: My role
+      title: Діяльність
+      guide: Тут ви можете ввести свої добровільною, професійної та інших видів діяльності в різних організаціях.
+      organisation: Організація
+      position: Моя роль
     web_addresses:
-      title: Web Addresses
+      title: Веб-Адрес
       guide: |
-        Here you can enter some of your contact data and other web profiles.<br/>
-        <strong>PLEASE NOTE</strong>: for now, all information entered here will be
-        <strong>visible to all members</strong> of the echo community.
-      type: Kind of address
-      address: Web Address
+        Тут ви можете вказати ваші контактні дані та інші веб-профілі.<br/>
+        <strong>PLEASE NOTE</strong>: на даний момент, вся інформація, введена тут, буде
+        <strong>visible всім members</strong> спільноти Ехо.
+      type: Яку адресу
+      address: Веб-Адресу
     concernments:
-      title: Concernments & Competences
+      title: Заклопотаності І Компетенції
       guide: |
-        All of us have <strong>different facets</strong>. In some areas we might be impacted and need help from others,
-        in other areas we engage ourselves and offer help to others. In certain fields we have professional expertise,
-        in others we might represent other people and make decisions.<br/>
-        echo helps like-minded people to find each other with <strong>knowledge complementing each other</strong>.<br/>
-        Which <strong>keywords (tags)</strong> would you describe <strong>your concernments and competences</strong> with?
+        У всіх нас є <strong>different facets</strong>. У деяких областях ми могли бути порушені та потребують допомоги від інших,
+        в інших областях ми беремо на себе, надати допомогу іншим. В певних галузях у нас є професійний досвід,
+        в інших ми могли б представляти інших людей і приймати рішення.<br/>
+        Ехо допомагає однодумцям знайти один одного з <strong>knowledge доповнюючи один other</strong>.<br/>
+        Що <strong>keywords (теги)</strong> би Ви описали <strong>your заклопотаності і competences</strong>?
       sorts:
-        affection: <strong>Impacted</strong> by
-        engagement: <strong>Engaged</strong> in
-        expertise: <strong>Expert</strong> in the field of
-        decision_making: <strong>Decision maker</strong> in the field of
-      tags: Keywords (tags)
+        affection: <strong>Impacted</strong> за
+        engagement: <strong>Engaged</strong> в
+        expertise: <strong>Expert</strong> в області
+        decision_making: <strong>Decision maker</strong> в області
+      tags: Ключові слова (теги)
     notifications:
-      title: E-Mail Notification Settings
-      guide: Here you can set whether you would like to receive E-Mail notifications on different subjects.
+      title: Налаштування Електронної Пошти Повідомлення
+      guide: Тут ви можете встановити, чи хочете ви отримувати e-mail повідомлення про різних предметів.
       newsletter:
-        title: Newsletter
-        guide: Receive echo newsletter.
-        turned_on: You have subscribed to the echo newsletter.
-        turned_off: You have unsubscribed from the echo newsletter.
+        title: Інформаційний бюлетень
+        guide: Отримувати розсилку Ехо.
+        turned_on: Ви підписані на розсилку Ехо.
+        turned_off: Ви відписалися від розсилки "Ехо".
       activity:
-        title: Activity Notifications
-        guide: Daily updates on new discussions and new statements in discussions you were active in.
-        turned_on: Activity notifications have been switched on.
-        turned_off: Activity notifications have been switched off.
+        title: Повідомлення Про Активність
+        guide: Щоденні оновлення на нові обговорення і нові заяви в дискусіях ви активно.
+        turned_on: Повідомлення були включені.
+        turned_off: Оповіщення були відключені.
       drafting:
-        title: Drafting Notifications
+        title: Складання Повідомлень
         guide: |
-          Immediate updates to follow the co-creative drafting process of your proposals and additions -
-          e.g. when your additions were approved to be incorporated.<br/><br/>
-          <strong>Attention!</strong> If this notification is turned off, you might easily miss the opportunity to
-          incorporate your additional ideas into proposals you support.
-        turned_on: Drafting notifications have been switched on.
-        turned_off: Drafting notifications have been switched off.
+          Негайного оновлення, щоб слідувати спільного творчого процесу складання пропозицій і доповнень -
+          наприклад, коли ваші доповнення були схвалені, щоб бути включені.<br/><br/>
+          <strong>Attention!</strong> якщо ці повідомлення відключені, ви можете легко втратити можливість
+          включати свої додаткові ідеї в пропозиції вам підтримки.
+        turned_on: Підготовка повідомлення були включені.
+        turned_off: Підготовка повідомлення були вимкнені.
     permissions:
-      title: Privacy Settings
-      guide: Where in echo your personal data should be shown or be hidden?
+      title: Параметри Конфіденційності
+      guide: Де Луна ваш персональні дані повинні бути показані або приховані?
       authorship:
-        title: Authorship of statements
-        guide: Let other logged in members (but no search engines) see your profile information as being a co-author of a statement in echo Discuss.
-        turned_on: Your profile information will be shown when displaying co-authors of statements.
-        turned_off: You will be displayed as Anonym among other authors of a statement.
+        title: Авторство висловлювання
+        guide: Нехай інші записуються в члени (але не пошукових систем) переглядати ваш профіль інформація як співавтор заяву в Ехо обговорювати.
+        turned_on: Ваш профіль інформація буде відображатися при відображенні авторів заяви.
+        turned_off: Ви будете відображатися як Анонім серед інших авторів заяви.
     echo_account:
-      title: echo Account
-      guide: Here you can manage your echo account.
+      title: запис Ехо
+      guide: Тут ви можете керувати Вашої облікового запису Ехо.
       change_email:
-        title: Change E-Mail
+        title: Зміна Електронної Пошти
         guide: |
-          You are currently registered with the E-Mail address: <strong>{{email}}</strong>.<br/>
-          Here you can define a new address echo should use to keep in touch with you.
-        password: Your Password
-        success: E-Mail changed successfully.
-        failed: Failed to change E-Mail.
-        no_password: Please enter your valid password to change your E-Mail.
+          В даний час Ви не зареєстровані на електронну адресу: <strong>{{email}}</strong>.<br/>
+          Тут ви можете визначити новий адресу Ехо повинні використовувати, щоб тримати в контакті з вами.
+        password: Ваш Пароль
+        success: Електронної пошти успішно змінено.
+        failed: Не вдалося змінити адресу електронної пошти.
+        no_password: Будь ласка, введіть пароль, щоб змінити свою адресу електронної пошти.
       change_password:
-        title: Change Password
-        guide: Please define your new password.
-        success: Your password has been changed successfully.
-        failed: Failed to change your password.
-        wrong_password: The entered current password is wrong.
+        title: Зміна Пароля
+        guide: Будь ласка, вкажіть Ваш новий пароль.
+        success: Ваш пароль успішно змінено.
+        failed: Не вдалося змінити пароль.
+        wrong_password: Введений пароль невірний.
       delete_account:
-        title: Delete Account
-        password: Your Password
+        title: Видалити Обліковий Запис
+        password: Ваш Пароль
         guide: |
           <p><strong>ATTENTION!</strong></p>
-          <p>Your account and ALL your personal data will be <strong>permanently deleted</strong>.<br/>
-          The echos you have made will be kept fully anonymously.</p>
-          <p>Please enter your password and click the button below, if you want to proceed.</p>
-        confirm: Delete my account permanently
-        success: Your echo account was successfully deleted.
+          Рахунки <p>Your і всі ваші особисті дані будуть <strong>permanently deleted</strong>.<br/>
+          В Ехо ви зробили, будуть збережені повністю анонімно.</p>
+          <p>Please введіть Ваш пароль і натисніть на кнопку нижче, якщо ви хочете, щоб продовжити.</p>
+        confirm: Видалити Мій акаунт назавжди
+        success: Ваш обліковий запис Ехо був успішно видалений.
     social_accounts:
-      title: Social Accounts
-      guide: Connect up your accounts to easily share and amplify your echo via other social networks.
+      title: Соціальних Рахунків
+      guide: Підключіть ваші акаунти, щоб легко поділитися і примножити ваш Відлуння через інші соціальні мережі.
       providers:
         facebook: Facebook
-        twitter: Twitter
-        yahoo!: Yahoo!
-        linkedin: LinkedIn
-        google: Google
+        twitter: Твіттер
+        yahoo!: Компанія Yahoo!
+        linkedin: У LinkedIn
+        google: Гугл
       connect:
-        title: Connect
-        success: Your {{account}} account has been connected successfully.
-        failed: Failed to connect to your {{account}} account.
+        title: Підключення
+        success: Ваш аккаунт {{account}} успішно підключений.
+        failed: Не вдалося підключитися до облікового запису {{account}}.
       disconnect:
-        title: Disconnect
-        success: Your {{account}} account has been disconnected.
-        failed: Failed to disconnect your {{account}} account.
+        title: Від'єднати
+        success: Ваш аккаунт {{account}} був відключений.
+        failed: Не вдалося відключити обліковий запис {{account}}.
       share:
-        title: Spread the word
-        guide: Make an echo in your social networks.
-        text: Message
+        title: Поширити слово
+        guide: Зробити Відлуння в соціальних мережах.
+        text: Повідомлення
         data_privacy:
-          title: Data Privacy Notice
-          description: Mind the privacy policy of other networks before sharing your views on them...
-        preview: Preview
-        submit: Send echo
-        error: Something went wrong while sharing your echo. Please check your network connection.
+          title: Повідомлення Про Конфіденційність Даних
+          description: Увазі політику конфіденційності інших мереж перед початком обміну думками про них...
+        preview: Попередній перегляд
+        submit: Відправити Ехо
+        error: Щось пішло не так, коли ви ділитеся своїми Луни. Будь ласка, перевірте мережеве підключення.
         success: |
-          Made an echo via {{accounts}}.
+          Зробили Ехо через {{accounts}}.
         failed: |
-          Failed to share via {{accounts}}.
+          Не вдалося поділитися через {{accounts}}.
         timeout: |
-          Connection with {{accounts}} timed out!
-        enabled: "On"
-        disabled: "Off"
+          Зв'язку з {{accounts}} минув!
+        enabled: "На"
+        disabled: "Від"
     users:
       new:
-        title: Your echo
-        subtitle: Join echo
+        title: Ваш Ехо
+        subtitle: Приєднуйтесь до Відлуння
         text: |
           <p>
-          <strong>echo is democracy from the people for the people.</strong>
+          <strong>echo демократія від народу, для народу.</strong>
           </p><p>
-          Join us now to participate!
+          Приєднуйтесь до нас, щоб брати участь!
           </p>
-        action: 'Join now!'
+        action: 'Приєднуйтесь зараз!'
       messages:
-        created: "Please check your E-Mails to activate your newly created account!"
-        activate_email: In order to complete the E-Mail address modification, please log out and press the confimation link sent to your new E-Mail address!
+        created: "Будь ласка, перевірте вашу електронну пошту, щоб активувати тільки що створений аккаунт!"
+        activate_email: Для того, щоб завершити електронної пошти зміна адреси, будь ласка, вийдіть і натисніть на посилання підтвердження відправлено на Ваш новий адреса електронної пошти!
     reports:
       new:
-        title: "Report user"
+        title: "Користувач звіту"
         text: |
-          <p>Did you see <strong>offensive, unethical or illegal content?</strong><br/>
-          If so, here you can report the user to our administrative team.
+          <p>Did ви бачите <strong>offensive, неетичну або незаконне утримання?</strong><br/>
+          Якщо це так, то тут ви можете повідомити користувачеві нашої адміністративної команди.
           </p><p>
-          We will check the issue as soon as possible.
+          Ми перевіримо як можна швидше.
           </p>
       messages:
-        created: "Thank you for your message. An administrator was notified."
+        created: "Спасибі за Ваше повідомлення. Було повідомлено адміністратору."
   discuss:
     my_questions:
-      link: My Questions
-      title: My new & published questions
+      link: Мої Питання
+      title: Мій новий і опубліковані питання
       no_questions: |
-        You haven't created any questions yet. To do so, please click on the question mark button on the left.
-      add: Add New Question
-    translation_request: Please translate this statement to <strong>ENGLISH</strong>.
-    mixed_languages: Mixed up languages
-    set_languages: Set your <strong>LANGUAGE SKILLS</strong> - Wipe out the noise!
-    no_locale_language: Do you speak ENGLISH?
-    adjust_languages: Please define your <strong>ENGLISH language skills</strong>!
+        Ви не створили ще які-небудь питання. Для цього, будь ласка, натисніть на знак питання ліворуч.
+      add: Додати Нове Запитання
+    translation_request: Будь ласка, переведіть це висловлювання на <strong>ENGLISH</strong>.
+    mixed_languages: Перемішалися мови
+    set_languages: Встановити <strong>LANGUAGE SKILLS</strong> - знищити шум!
+    no_locale_language: Ви говорите по-англійськи?
+    adjust_languages: Будь ласка, сформулюйте Ваші <strong>ENGLISH мова skills</strong>!
     results_count:
-      one: '{{count}} question'
-      more: '{{count}} questions'
+      one: 'Питання {{count}}'
+      more: '{{count}} питання'
     for: |-
-      for '{{value}}'
+      для {{value}}'
     featured_topics:
-      title: Featured Topics
+      title: Спеціальні Теми
       tabs:
         echo:
-          title: About echo
+          title: Про echo
         pilot_projects:
-          title: Pilot Projects
+          title: Пілотні Проекти
     search:
-      title: Search
-      in: '... in {{category}} ...'
-      add: "Create the first question about the topic"
-      placeholder: "Topic and/or place of interest"
+      title: Пошук
+      in: '... в {{category}} ...'
+      add: "Створіть перший запитання з приводу цієї теми"
+      placeholder: "Теми та/або місця, що представляють інтерес"
     tooltips:
-      read_question: 'Go to this question'
-      read_proposal: 'Read this proposal'
-      read_improvement: 'Read this addition'
-      read_pro_argument: 'Read this PRO argument'
-      read_contra_argument: 'Read this CONTRA argument'
-      read_follow_up_question: 'Read this follow-up question'
-      current_question: 'The currently displayed question'
-      current_proposal: 'The currently displayed proposal'
-      current_improvement: 'The currently displayed addition'
-      current_pro_argument: 'The currently displayed PRO argument'
-      current_contra_argument: 'The currently displayed CONTRA argument'
-      current_background_info: 'The currently displayed background info'
-      current_follow_up_question: 'The currently displayed follow-up question'
-      back_to_question: 'Back to current question'
-      back_to_proposal: 'Back to current proposal'
-      back_to_improvement: 'Back to current addition'
-      prev_question: 'Read previous question in the context shown above'
-      next_question: 'Read next question in the context shown above'
-      prev_proposal: 'Read previous proposal for the current question'
-      next_proposal: 'Read next proposal for the current question'
-      prev_improvement: 'Read previous addition for the current proposal'
-      next_improvement: 'Read next addition for the current proposal'
-      prev_pro_argument: 'Read previous argument for the current proposal'
-      next_pro_argument: 'Read next argument for the current proposal'
-      prev_contra_argument: 'Read previous argument for the current proposal'
-      next_contra_argument: 'Read next argument for the current proposal'
-      prev_background_info: 'See previous background info for the current statement'
-      next_background_info: 'See next background info for the current statement'
-      prev_follow_up_question: 'Read previous follow-up question in the context shown above'
-      next_follow_up_question: 'Read next follow-up question in the context shown above'
-      create_question: 'Create a new question'
-      create_proposal: "Post a new proposal for the current question"
-      create_improvement: "Post a new addition to the current proposal"
-      create_pro_argument: "Post a new PRO argument to the current proposal"
-      create_contra_argument: "Post a new CONTRA argument to the current proposal"
-      create_alternative: "Post a new opposition to this statement"
-      create_background_info: "Recommend a new piece of background information related to this statement"
-      create_follow_up_question: "Post a new new follow-up question concerning this statement"
-      echo: 'echo this statement to support it!'
-      unecho: 'Withdraw your echo to stop supporting this statement'
+      read_question: 'Піти на це питання'
+      read_proposal: 'Прочитати цю пропозицію'
+      read_improvement: 'Читати це додаток'
+      read_pro_argument: 'Прочитайте цей аргумент Pro'
+      read_contra_argument: 'Прочитайте цей аргумент Contra'
+      read_follow_up_question: 'Прочитайте це питання'
+      current_question: 'В даний час питання'
+      current_proposal: 'У даний момент відображено пропозицію'
+      current_improvement: 'У даний момент відображено додаток'
+      current_pro_argument: 'Який відображається аргумент Pro'
+      current_contra_argument: 'Який відображається аргумент Contra'
+      current_background_info: 'В даний момент відображається довідкова інформація'
+      current_follow_up_question: 'В даний момент відображається наступне питання'
+      back_to_question: 'Повернутися до поточного питання'
+      back_to_proposal: 'Повернемося до поточних пропозицією'
+      back_to_improvement: 'До нинішніх додаток'
+      prev_question: 'Читайте попередній питання в контексті показано вище'
+      next_question: 'Читати далі питання в контексті показано вище'
+      prev_proposal: 'Прочитайте Попереднє речення на поточний питання'
+      next_proposal: 'Читати далі пропозиції по поточному питання'
+      prev_improvement: 'Читати Попереднє доповнення для поточного пропозиції'
+      next_improvement: 'Читати далі доповнення для поточного пропозиції'
+      prev_pro_argument: 'Читай попередній аргумент для поточного пропозиції'
+      next_pro_argument: 'Читати далі суперечка на поточне пропозиція'
+      prev_contra_argument: 'Читай попередній аргумент для поточного пропозиції'
+      next_contra_argument: 'Читати далі суперечка на поточне пропозиція'
+      prev_background_info: 'См. попередній довідкова інформація для поточного оператора'
+      next_background_info: 'Дивіться далі довідкова інформація для поточного оператора'
+      prev_follow_up_question: 'Читай попередній питання в контексті показано вище'
+      next_follow_up_question: 'Читати далі піде питання в контексті показано вище'
+      create_question: 'Створіть новий питання'
+      create_proposal: "Після Нового пропозиції на поточний питання"
+      create_improvement: "Пост нове доповнення до поточного пропозиції"
+      create_pro_argument: "Пост новий аргумент про поточне пропозиція"
+      create_contra_argument: "Пост новий аргумент Contra в даному реченні"
+      create_alternative: "Після нової опозиції на цю заяву"
+      create_background_info: "Рекомендуємо нову частину довідкової інформації, що відноситься до даної заяви"
+      create_follow_up_question: "Опублікувати новий питання з приводу цієї заяви"
+      echo: 'Відлуння цієї заяви, щоб підтримати його!'
+      unecho: 'Відкликати своє Відлуння, щоб припинити підтримку цієї заяви'
       publish: |
-        Release the question to make it visible for everybody.
-        (Afterwards no further editing is possible.)
-      incorporate: 'Click here to incorporate this addition into the proposal above.'
+        Відпустіть питання, щоб зробити його видимим для всіх.
+        (Після цього не подальше редагування можливо.)
+      incorporate: 'Натисніть тут, щоб включити це додаток у реченні.'
       siblings:
-        question: See all questions in the context shown above
-        proposal: See all proposals belonging to the current question
-        improvement: See all additions proposed for the current proposal
-        pro_argument: See all arguments belonging to the current proposal
-        contra_argument: See all arguments belonging to the current proposal
-        background_info: See all background infos belonging to the current statement
+        question: Подивитися всі питання в контексті показано вище
+        proposal: Перегляньте всі пропозиції, що відносяться до поточного питання
+        improvement: Переглянути всі доповнення, запропоновані для поточного пропозиції
+        pro_argument: Дивіться всі аргументи, що відносяться до поточного пропозиції
+        contra_argument: Дивіться всі аргументи, що відносяться до поточного пропозиції
+        background_info: Переглянути всі довідкова інформація, що відносяться до поточного заявою
       link_statement: |-
-        Enter a part of the title or paste in the URL of a statement.
-        Afterwards press this button to reuse the statement in the current context.
-      unlink_statement: "Click the button again to unlink the statement."
+        Введіть частину назви або вставити посилання на заяву.
+        Потім натисніть цю кнопку для повторного використання заяву в поточному контексті.
+      unlink_statement: "Натисніть кнопку знову, щоб вимкнути заяву."
     statements:
-      label: 'votes'
-      echo_link: 'Support (echo)'
-      unecho_link: 'Withdraw vote'
+      label: 'голосів'
+      echo_link: 'Підтримка (Луна)'
+      unecho_link: 'Відкликати голос'
       echo_indicator:
-        one: '{{supporter_count}} supporter'
-        many: '{{supporter_count}} supporters'
-      add_new: New statement
-      embed_button: Embed
-      embed_search_title: Embed search results
+        one: '{{supporter_count}} прихильник'
+        many: '{{supporter_count}} прихильників'
+      add_new: Нову заяву
+      embed_button: Додайте
+      embed_search_title: Розміщення результати пошуку
       embed_search_hint: |-
-        Copy and paste the code below to embed these search results into YOUR website and make an echo in your community.
-      embed_statement_title: Embed statement
+        Скопіюйте та вставте код нижче, щоб впровадити ці результати пошуку в ваш сайт і зробити Відлуння у вашій громаді.
+      embed_statement_title: Відомість розміщення
       embed_statement_hint: |-
-        Copy and paste the code below to embed this statement into YOUR website and make an echo in your community.
-      copy_url: Link to
-      copy_url_title: Link to statement
-      copy_url_hint: 'Copy the link to this statement and use it to spread the word via your favorite channels.'
-      create_question_link: 'Create new question'
-      create_proposal_link: Add new proposal
-      create_internal_link: 'New idea?'
-      create_improvement_link: Propose new addition
-      create_pro_argument_link: Add new PRO argument
-      create_contra_argument_link: Add new CONTRA argument
-      create_alternative_link: Add new opposition
-      create_background_info_link: Add new background info
-      create_follow_up_question_link: Add new follow-up question
-      preview_embedded_content: Preview
-      open_embedded_content: Open in new window
+        Скопіюйте та вставте нижче код, щоб додати цю заяву у свій сайт і зробити Відлуння у вашій громаді.
+      copy_url: Посилання на
+      copy_url_title: Посилання на заяву
+      copy_url_hint: 'Скопіюйте посилання на цю заяву і використовувати його, щоб поширити слово через ваші улюблені канали.'
+      create_question_link: 'Створити нове питання'
+      create_proposal_link: Додати нове речення
+      create_internal_link: 'Нова ідея?'
+      create_improvement_link: Пропоную нове доповнення
+      create_pro_argument_link: Додати новий аргумент
+      create_contra_argument_link: Додати новий аргумент Contra
+      create_alternative_link: Додати нову опозицію
+      create_background_info_link: Додати новий довідкову інформацію
+      create_follow_up_question_link: Додати нове запитання
+      preview_embedded_content: Попередній перегляд
+      open_embedded_content: Відкрити у новому вікні
       statement_language_hint: |
-        Please set your language skills in your <a href='{{url}}'>Profile</a>.
+        Будь ласка, введіть свої мовні навички в <a href='{{url}}'>Profile</a>.
       statement_language_hint_tooltip: |
-        This will enable you to enter statements in any language you speak at least at intermediate level.
+        Це дозволить вам вводити вирази в будь-якій мові Ви говорите хоча б на середньому рівні.
       drafting_language_hint: |
-        Please note, that the collective advancement of this proposal will only be possible in the selected language!
+        Зверніть увагу, що колективний просування цієї пропозиції буде можливий тільки на вибраній мові!
       fuq_formulation_hint: |
-        Since follow-up questions also appear as questions in "Search", title and description should both be
-        comprehensible independently of the original discussion.
+        Оскільки наступні питання також відображаються у вигляді питань "пошук", заголовок і опис повинні бути
+        прийнятні незалежно від вихідного обговорення.
       tag_permission: |
-        You do not have the permission to insert the '{{tag}}' tag.
+        У вас немає дозволу, щоб вставити '{{tag}}' тег.
       read_permission: |
-        You do not have permission to read this statement.
+        Ви не маєте дозволу на читання цієї заяви.
       title_hint:
-        question: Enter the question title in... English?
-        proposal: Enter the proposal title in... English?
-        improvement: Enter the addition title in... English?
-        pro_argument: Enter the PRO argument title in... English?
-        contra_argument: Enter the CONTRA argument title in... English?
-        background_info: Enter the background info title in... English?
-        follow_up_question: Enter the follow-up question title in... English?
+        question: Введіть Заголовок питання... англійську?
+        proposal: Введіть назву пропозиції, в... по-англійськи?
+        improvement: Введіть назву... англійську?
+        pro_argument: Введіть назву про аргумент в... англійську?
+        contra_argument: Введіть назву аргументи "проти"... англійську?
+        background_info: Введіть назву довідкова інформація... англійську?
+        follow_up_question: Введіть питання... назва англійською?
       text_hint:
         alternative_prefix: |
-          OPPOSITIONS are mutually exclusive to the original statement and all its other alternatives.<br/><br/>
-        question: Please describe the issue in more detail and ask a concrete question...
+          ОПОЗИЦІЯ є взаємовиключними до спочатку заяву і всіх інших альтернатив.<br/><br/>
+        question: Будь ласка, опишіть питання більш детально і задайте конкретне питання...
         proposal: |
-          Please describe your proposal in more detail...<br/><br/>
-          Depending on the kind of question, a proposal can be understood as a possible answer,
-          solution approach or position to the question.
+          Будь ласка, опишіть вашу пропозицію більш детально...<br/><br/>
+          Залежно від виду питання, пропозиція може бути зрозумілий як можливу відповідь,
+          підхід до рішення або позиції до питання.
         improvement: |
-          Please describe your addition or amendment to the proposal in more detail...<br/><br/>
-          These additions serve as a basis for echos democratic process of joint elaboration and
-          improvement of proposals. The authors of the additions with the greatest support are regularly given the
-          opportunity to incorporate their ideas and thoughts into the proposal.
-        pro_argument: Please describe your point FOR the proposal in more detail...
-        contra_argument: Please describe your point AGAINST the proposal in more detail...
+          Будь ласка, опишіть ваше доповнення або поправки до пропозиції більш детально...<br/><br/>
+          Ці доповнення служать основою для Відлуння демократичного процесу спільної розробки і
+          поліпшення пропозицій. Автори доповнення з найбільшою підтримкою регулярно надавалася
+          можливість включити свої ідеї і думки в речення.
+        pro_argument: Будь ласка, опишіть вашу точку пропозицію більш детально...
+        contra_argument: Будь ласка, опишіть вашу точку проти пропозиції більш детально...
         background_info: |
-          Please describe the recommended background information shortly and tell why you
-          think it is interesting in this context...
-        follow_up_question: Please describe your follow-up question in more detail...
-      tag_hint: 'Enter tags here...'
-      info_url_hint: 'Enter the link to the external content'
-      publish: Release
-      published: The question has been released successfully.
-      edit: 'Edit {{type}}'
+          Будь ласка, коротко опишіть рекомендовану довідкову інформацію та розповісти, чому ви
+          думаю, що це цікаво в цьому контексті...
+        follow_up_question: Будь ласка, опишіть Ваше питання більш детально...
+      tag_hint: 'Введіть тут теги...'
+      info_url_hint: 'Введіть посилання на зовнішній контент'
+      publish: Реліз
+      published: Питання було успішно випущений.
+      edit: 'Редагувати {{type}}'
       types:
-        question: 'Question'
-        proposal: 'Proposal'
-        improvement: 'Addition'
-        pro_argument: 'Pro Argument'
-        contra_argument: 'Contra Argument'
-        alternative: 'Opposition'
-        background_info: 'Background Info'
-        follow_up_question: 'Follow-Up Question'
+        question: 'Питання'
+        proposal: 'Пропозиція'
+        improvement: 'Додаток'
+        pro_argument: 'Аргумент Pro'
+        contra_argument: 'Аргумент Contra'
+        alternative: 'Опозиція'
+        background_info: 'Довідкова Інформація'
+        follow_up_question: 'Наступне Питання'
       new:
-        question: 'New Question'
-        proposal: 'New Proposal'
-        improvement: 'New Addition'
-        pro_argument: 'New Pro Argument'
-        contra_argument: 'New Contra Argument'
-        background_info: 'New Background Info'
-        follow_up_question: 'New Follow-Up Question'
+        question: 'Нове Запитання'
+        proposal: 'Нова Пропозиція'
+        improvement: 'Нове Доповнення'
+        pro_argument: 'Новий Аргумент Pro'
+        contra_argument: 'Новий Аргумент Contra'
+        background_info: 'Новий Довідкову Інформацію'
+        follow_up_question: 'Новий Наступне Питання'
       headings:
-        question: 'Questions'
-        proposal: 'Proposals'
-        improvement: 'Additions'
-        argument: 'Pros & Cons'
-        alternatives: 'Alternatives'
-        background_info: 'Background Infos'
-        follow_up_question: 'Follow-up Questions'
+        question: 'Питання'
+        proposal: 'Пропозиції'
+        improvement: 'Доповнення'
+        argument: 'Плюси І Мінуси'
+        alternatives: 'Альтернативи'
+        background_info: 'Довідкова Інформація'
+        follow_up_question: 'Наступні питання'
       sibling_labels:
-        question: 'Questions'
-        proposal: 'Proposals'
-        improvement: 'Additions'
-        argument: 'Arguments'
-        background_info: 'Backgrounds'
-        follow_up_question: 'Questions'
+        question: 'Питання'
+        proposal: 'Пропозиції'
+        improvement: 'Доповнення'
+        argument: 'Аргументи'
+        background_info: 'Фони'
+        follow_up_question: 'Питання'
       siblings:
-        background_info: 'Background Infos'
-        follow_up_question: 'Follow-up Question in the context shown above'
-      topic: Topic (Tags / Keywords)
+        background_info: 'Довідкова Інформація'
+        follow_up_question: 'Подальший питання в контексті показано вище'
+      topic: Теми Теги / Ключові Слова)
       states:
-        label: 'Publish question immediately?'
+        label: 'Негайно опублікувати питання?'
         initial_state:
-          new: 'Set up at first and publish later'
-          published: 'Publish immediately (further editing will be limited)'
-        published: Released
-        approved: Approved
-      delete_link: 'Delete'
-      delete_confirmation: 'Are you sure you want to delete this statement?'
+          new: 'Встановити спочатку і опублікувати пізніше'
+          published: 'Негайно опублікувати (подальше редагування буде обмежена)'
+        published: Випущено
+        approved: Затверджений
+      delete_link: 'Видалити'
+      delete_confirmation: 'Ви впевнені, що хочете видалити цю заяву?'
       read_only_permission: |-
-        This is a transparent but currently closed discussion, you are only allowed to read.
+        Це прозора, але в даний час закритого обговорення, дозволяється тільки для читання.
       unsupported_parent: |-
-        You can only support additions if you support the proposal itself.
+        Ви можете тільки доповнення, якщо ви будете підтримувати самої пропозиції.
       not_approved_any_more: |-
-        Unfortunately, this addition cannot be incorporated any longer.
+        На жаль, це доповнення не може бути більше закладено.
       see_parent_if_approved: |-
-        The requested addition is currently approved to be incorporated into the proposal below.
+        Запитувана додаток в даний час схвалено для включення в пропозицію нижче.
       see_parent_if_incorporated: |-
-        The requested addition has already been incorporated into the proposal below.
+        Запитувана додаток вже включено в пропозицію нижче.
       being_edited: |-
-        The statement is currently being edited. Please try again later.
+        Заява зараз редагується. Будь ласка, спробуйте ще раз пізніше.
       statement_updated: |-
-        This {{type}} has just been updated by another person.
+        Це {{type}} тільки що був оновлений іншою особою.
       statement_supported: |-
-        Thanks for making an echo to the {{type}}.
+        Спасибі за відгук на {{type}}.
       statement_unsupported: |-
-        You withdrew your echo from the {{type}}.
+        Ви заберете своє Відлуння від {{type}}.
       edit_period_hint: |
-        You have <strong>{{minutes}} minutes</strong> to edit the statement.
-        Afterwards, your modifications might even get discarded.
-      staled_modification: 'We are very sorry, but you exceeded the 60 minutes limit to edit and save the statement. Meanwhile it has already been updated by a different user. Therefore, your changes must have been unfortunately discarded.'
-      no_document_in_language: 'The statement does not exist in English yet.'
-      supporter_to_share: 'You must be a supporter of this statement in order to share it!'
-      published_to_share: 'This discussion is yet to be published. Until then, it is not possible to share it.'
-      cannot_be_edited: Unfortunately, you cannot edit this statement after other members supported it. This is to avoid faking of opinions.
-      cannot_be_linked: Unfortunately this statement cannot be linked in the current context.
-      echos_label: Support
+        Ви <strong>{{minutes}} minutes</strong> відредагувати заяву.
+        Після цієї зміни може навіть викинути.
+      staled_modification: 'Нам дуже шкода, але ви перевищили ліміт 60 хвилин, щоб відредагувати і зберегти заяву. Між тим вона вже оновлено іншим користувачем. Отже, зміни повинні були, на жаль, скасовано.'
+      no_document_in_language: 'Заява не існує в англійській мові ще.'
+      supporter_to_share: 'Ви повинні бути прихильником цієї заяви для того, щоб поділитися ним!'
+      published_to_share: 'Обговорення цього питання ще буде опубліковане. А поки це не можливо, щоб поділитися ним.'
+      cannot_be_edited: На жаль, ви не можете відредагувати цю заяву після того, як інші учасники його підтримали. Це дозволить уникнути фальсифікації думки.
+      cannot_be_linked: На жаль, це твердження не може бути пов'язаний в поточному контексті.
+      echos_label: Підтримка
       linking:
-        disabled: Link
-        enabled: Linked
+        disabled: Посилання
+        enabled: Пов'язано
       breadcrumbs:
-        discuss_search: Search results
-        my_questions: My Questions
+        discuss_search: Результати пошуку
+        my_questions: Мої Питання
         labels:
           ds: ''
           mi: ''
-          sr: 'Questions found for'
-          pr: 'Proposals for'
-          im: 'Additions for'
-          ar: 'Arguments for'
-          bi: 'Background Infos for'
-          fq: 'Follow-up Questions for'
-          jp: 'Following link in'
+          sr: 'Питання для'
+          pr: 'Пропозиції щодо'
+          im: 'Доповнення для'
+          ar: 'Аргументи для'
+          bi: 'Довідкова інформація'
+          fq: 'Подальші питання для'
+          jp: 'Наступним ланкою в'
           over:
-            ds: 'Back to'
-            mi: 'Back to'
-            sr: 'Back to search results for'
-            pr: 'Back to'
-            im: 'Back to'
-            ar: 'Back to'
-            bi: 'Back to'
-            fq: 'Back to'
-            jp: 'Back to'
+            ds: 'Назад'
+            mi: 'Назад'
+            sr: 'Повернутися до результатів пошуку'
+            pr: 'Назад'
+            im: 'Назад'
+            ar: 'Назад'
+            bi: 'Назад'
+            fq: 'Назад'
+            jp: 'Назад'
       upload_image:
-        title: Upload Image
-        guide: Please <strong>select an image</strong> (JPG or PNG, max. 5MB) and upload it.
-        progress: The image is being uploaded. Please wait...
-        error: The image couldn't be applied. Please upload a supported format (JPG or PNG and max. 5MB).
+        title: Завантажити Зображення
+        guide: Будь ласка, <strong>select в image</strong> (jpg або PNG, Макс. 5 Мб) і завантажити його.
+        progress: Зображення завантажується. Будь ласка, зачекайте...
+        error: Зображення не могли бути застосовані. Будь ласка, завантажте підтримуваний Формат JPG або PNG і Макс. 5Мб).
       add_teaser:
         question: |
-          This is where YOUR question could appear.<br/><br/>Have you got one?<br/><br/>
-          Press the button above to enter it NOW!
+          Це де ваше питання міг з'явитися.<br/><br/>Have у тебе один?<br/><br/>
+          Натисніть на кнопку, щоб ввести його зараз!
         proposal: |
-          This is where YOUR proposal to the question could appear.<br/><br/>Have you got one?<br/><br/>
-          Press the button above to enter it NOW!
+          Це де ваша пропозиція, щоб питання міг з'явитися.<br/><br/>Have у тебе один?<br/><br/>
+          Натисніть на кнопку, щоб ввести його зараз!
         improvement: |
-          This is where YOUR addition or amendment to the proposal could appear.<br/><br/>Have you got one?<br/><br/>
-          Press the button above to enter it NOW!
+          Це де ваше доповнення або поправки до пропозиції могло з'явитися.<br/><br/>Have у тебе один?<br/><br/>
+          Натисніть на кнопку, щоб ввести його зараз!
         pro_argument: |
-          This is where your argument FOR the proposal could appear.<br/><br/>Have you got one?<br/><br/>
-          Press the button above to enter it NOW!
+          Це де ваш аргумент за дану пропозицію може з'явитися.<br/><br/>Have у тебе один?<br/><br/>
+          Натисніть на кнопку, щоб ввести його зараз!
         contra_argument: |
-          This is where your argument AGAINST the proposal could appear.<br/><br/>Have you got one?<br/><br/>
-          Press the button above to enter it NOW!
+          Це де ваш аргумент проти пропозиція може з'явитися.<br/><br/>Have у тебе один?<br/><br/>
+          Натисніть на кнопку, щоб ввести його зараз!
         background_info: |
-          This is where a new background info related to the current statement could appear.<br/><br/>
-          Would you like to recommend one?<br/><br/>
-          Press the button above to enter it NOW!
+          Це де нова фонова інформація, пов'язана з поточною оператор міг з'явитися.<br/><br/>
+          Ви хочете порекомендувати один?<br/><br/>
+          Натисніть на кнопку, щоб ввести його зараз!
         follow_up_question: |
-          This is where YOUR follow-up question could appear.<br/><br/>Have you got one?<br/><br/>
-          Press the button above to enter it NOW!
+          Це де ваш подальший питання міг з'явитися.<br/><br/>Have у тебе один?<br/><br/>
+          Натисніть на кнопку, щоб ввести його зараз!
     summary:
-      title: 'Summary'
+      title: 'Резюме'
     messages:
-      created: "The new {{type}} has been entered successfully."
-      updated: "The {{type}} has been updated successfully."
-      deleted: "The {{type}} has been deleted successfully."
-      translated: "The {{type}} has been translated successfully."
-      incorporated: "The addition has been successfully incorporated into the proposal."
-      image_uploaded: "The illustration image has been added to the {{type}}."
-      new_percentage: "Your profile is {{percentage}}% complete."
+      created: "Новий {{type}} були успішно внесені."
+      updated: "У {{type}} була успішно оновлено."
+      deleted: "У {{type}} був успішно видалений."
+      translated: "У {{type}} успішно переведені."
+      incorporated: "Крім того, був успішно включений в пропозицію."
+      image_uploaded: "Зображення ілюстрація була додана в {{type}}."
+      new_percentage: "Ваш профіль {{percentage}}% повний."
   connect:
     fill_out_profile:
-      text: 'Please fill out <strong>at least {{percentage}}%</strong> of your profile to make "the computer" happy and let this block disappear. :-)'
-      name: 'My Profile'
-      description: 'Complete your profile to present yourself in the echo community.'
-    placeholder: 'Topic, place, organization or name of interest'
+      text: 'Будь ласка, заповніть <strong>at б {{percentage}}%</strong> Вашого профілю, щоб "комп''ютер" щасливі і нехай цей блок зникне. :-)'
+      name: 'Мій Профіль'
+      description: 'Заповніть свій профіль, щоб презентувати себе в суспільстві "Ехо".'
+    placeholder: 'Теми, місця, організації або ім''я інтересів'
     segments:
-      all: 'All'
-      affection: 'Impacted'
-      engagement: 'Engaged'
-      expertise: 'Experts'
-      decision_making: 'Decision Makers'
+      all: 'Всі'
+      affection: 'Вплив'
+      engagement: 'Займається'
+      expertise: 'Експерти'
+      decision_making: 'Осіб, Що Приймають Рішення'
     results_count:
       all:
         no_filter:
-          one: 'person'
-          more: 'people'
+          one: 'чоловік'
+          more: 'люди'
         with_filter:
-          one: "person related to '{{filter}}'"
-          more: "people related to '{{filter}}'"
+          one: "особи, пов'язані з '{{filter}}'"
+          more: "люди, пов'язані з '{{filter}}'"
       affection:
         no_filter:
-          one: impacted person
-          more: impacted people
+          one: вплив людини
+          more: постраждали люди
         with_filter:
-          one: "person impacted by '{{filter}}'"
-          more: "people impacted by '{{filter}}'"
+          one: "особа, порушені '{{filter}}'"
+          more: "людей, які постраждали від '{{filter}}'"
       engagement:
         no_filter:
-          one: engaged person
-          more: engaged people
+          one: займається людина
+          more: зайняті люди
         with_filter:
-          one: "person engaged in '{{filter}}'"
-          more: "people engaged in '{{filter}}'"
+          one: "особа, яка бере участь у {{filter}}'"
+          more: "люди, зайняті в {{filter}}'"
       expertise:
         no_filter:
-          one: expert
-          more: experts
+          one: експерт
+          more: експерти
         with_filter:
-          one: "expert in '{{filter}}'"
-          more: "experts in '{{filter}}'"
+          one: "експерт у {{filter}}'"
+          more: "експерти в {{filter}}'"
       decision_making:
         no_filter:
-          one: decision maker
-          more: decision makers
+          one: рішення
+          more: осіб, що приймають рішення
         with_filter:
-          one: "decision maker in '{{filter}}'"
-          more: "decision makers in '{{filter}}'"
+          one: "ОПР у {{filter}}'"
+          more: "осіб, що приймають рішення в {{filter}}'"
     details:
       tabs:
-        overview: 'Overview'
-        concernments: 'Competences'
-        web_addresses: 'Web Addresses'
+        overview: 'Огляд'
+        concernments: 'Компетенції'
+        web_addresses: 'Веб-Адрес'
       actions:
-        report: "Report"
-        send_mail: "Send Message"
+        report: "Звіт"
+        send_mail: "Надіслати Повідомлення"
     messages:
-      empty: 'No members found. Please change your search criteria.'
-      no_concernments: "This member hasn't defined any concernments and competences, yet."
-      no_web_addresses: "This member hasn't defined any web addresses, yet."
+      empty: 'Не знайдено. Будь ласка, змініть умови пошуку.'
+      no_concernments: "Цей член не визначені будь-які заклопотаності і компетенцій, але."
+      no_web_addresses: "Цей член не визначені будь-які веб-адрес, але."
   feedback:
     new:
-      title: Feedback
+      title: Відгуки
       welcome: |
         <p>
-        <strong>We are happy to hear your opinion!</strong><br/>
+        <strong>We раді почути вашу думку!</strong><br/>
         </p><p>
-        Do not hesitate to ask questions, make comments or to leave a criticism or kudos for us.
+        Не соромтеся задати запитання, висловити зауваження або залишити критика або хвала нам.
         </p>
-      message: Message
-      send: Send message
+      message: Повідомлення
+      send: Надіслати повідомлення
     create:
-      thank_you: Thank you for your feedback.
+      thank_you: Спасибі за ваш відгук.
   user_mail:
     new:
-      title: Send Mail
-      guide: Here you can send an E-Mail to contact the selected echo member.
-      subject: Subject
-      text: Message
+      title: Відправити Листа
+      guide: Тут ви можете відправити електронну пошту, щоб зв'язатися з обраним учасником Ехо.
+      subject: Тема
+      text: Повідомлення
     create:
-      thank_you: Your message has been sent successfully.
+      thank_you: Ваше повідомлення успішно відправлено.
   activerecord:
     errors:
       models:
         feedback:
           attributes:
-            blank: 'Please fill out all fields.'
+            blank: 'Будь ласка, заповніть всі поля.'
             email:
-              invalid: 'Please enter a valid E-Mail address.'
+              invalid: 'Будь ласка, введіть дійсну адресу електронної пошти.'
         newsletter:
           attributes:
-            blank: 'Please fill out all fields.'
+            blank: 'Будь ласка, заповніть всі поля.'
             email:
-              invalid: 'Please enter a valid E-Mail address.'
+              invalid: 'Будь ласка, введіть дійсну адресу електронної пошти.'
         user:
           attributes:
             email:
-              taken: 'The E-Mail address is already in use.'
-              invalid: 'Please enter a valid E-Mail address.'
+              taken: 'Адреса електронної пошти вже використовується.'
+              invalid: 'Будь ласка, введіть дійсну адресу електронної пошти.'
             password:
-              invalid: 'Wrong password.'
+              invalid: 'Невірний пароль.'
         social_identifier:
-          taken: 'This Social Account is already in use. Please log in with it!'
+          taken: 'Цей соціальний акаунт вже використовується. Будь ласка, ввійдіть з ним!'
       messages:
-        blank: "The field '{{attribute}}' must not be empty."
-        taken: 'Is already in use.'
-        too_short: "Your input for '{{attribute}}' is too short."
-        too_long: "Your input for '{{attribute}}' is too long."
-        invalid: "Your input for '{{attribute}}' must be in a valid format."
-        confirmation: '{{attribute}} confirmation does not match.'
-        access_denied: "You are not allowed to perform this action."
+        blank: "Поле '{{attribute}}' не повинен бути порожнім."
+        taken: 'Вже у використанні.'
+        too_short: "Ваш внесок для {{attribute}} занадто коротке."
+        too_long: "Ваш внесок для {{attribute}}-це занадто довго."
+        invalid: "Ваш внесок для {{attribute}} повинні бути в допустимому форматі."
+        confirmation: 'Підтвердження {{attribute}} не збігається.'
+        access_denied: "Вам не дозволено виконувати цю дію."
       template:
         header:
-          one: "One of the fields is filled incorrectly."
-          few: "{{count}} fields are filled incorrectly."
-          other: "{{count}} fields are filled incorrectly."
-        body: "Please correct the following:"
+          one: "Одне з полів неправильно заповнена."
+          few: "{{count}} поля неправильно заповнені."
+          other: "{{count}} поля неправильно заповнені."
+        body: "Будь ласка, виправте наступне:"
     attributes:
       profile:
-        email: E-Mail
-        full_name: Name
-        gender: Gender
-        city: City
-        country: Country
-        location: Location
-        about_me: About me
-        motivation: Thoughts about echo
-        memberships: Activities
-        spoken_languages: Language skills
+        email: Електронної Пошти
+        full_name: Назва
+        gender: Підлога
+        city: Місто
+        country: Країна
+        location: Розташування
+        about_me: Про мене
+        motivation: Думки про echo
+        memberships: Діяльність
+        spoken_languages: Мовні навички
       report:
-        reason: 'Reason'
+        reason: 'Причина'
       web_address:
-        location: 'Web Address'
+        location: 'Веб-Адресу'
       membership:
-        position: My role
+        position: Моя роль
       statement_node:
-        image: 'Image file'
+        image: 'Файл зображення'
       statement_document:
-        language_id: 'Language'
-        language: 'Language'
-        title: 'Title'
-        text: 'Summary'
-        image: 'Illustration'
+        language_id: 'Мова'
+        language: 'Мова'
+        title: 'Назва'
+        text: 'Резюме'
+        image: 'Ілюстрація'
       statement:
-        info_type_id: 'Content Type'
+        info_type_id: 'Тип Вмісту'
       statement_data:
-        info_url: 'Background Info Link'
+        info_url: 'Довідкова Інформація За Посиланням'
       about_item:
-        photo: 'Photo'
-        name: 'Name'
-        responsibility: 'Responsibility'
-        description: 'Description'
-        about_category_id: 'About Item'
-        index: 'Index'
+        photo: 'Фото'
+        name: 'Назва'
+        responsibility: 'Відповідальність'
+        description: 'Опис'
+        about_category_id: 'Про Пункт'
+        index: 'Індекс'
     models:
-      question: "question"
-      proposal: "proposal"
-      improvement: "addition"
-      pro_argument: 'pro argument'
-      contra_argument: 'contra argument'
-      follow_up_question: 'follow-up question'
+      question: "питання"
+      proposal: "пропозиція"
+      improvement: "додаток"
+      pro_argument: 'аргумент Pro'
+      contra_argument: 'аргумент Contra'
+      follow_up_question: 'наступне питання'
   authlogic:
     error_messages:
-      email_invalid: "Please enter a correct e-mail address."
-      password_blank: "Password must be defined."
-      not_active: "Your account has not been activated yet. Please check your inbox."
-      must_be_logged_in: "Please log in to perform this action."
-      must_be_logged_out: "Please log out to perform this action."
+      email_invalid: "Будь ласка, введіть правильну адресу електронної пошти."
+      password_blank: "Пароль повинен бути визначений."
+      not_active: "Ваш обліковий запис не була активована. Будь ласка, перевірте Вашу поштову скриньку."
+      must_be_logged_in: "Будь ласка, увійдіть на виконання цієї дії."
+      must_be_logged_out: "Будь ласка, вийдіть на виконання цієї дії."
     attributes:
       user_session:
-        email: E-Mail
-        password: Password
+        email: Електронної Пошти
+        password: Пароль
   date:
     formats:
-      default: "%d.%m.%Y"
+      default: "%d.%м.%Г"
       short: "%e. %b"
-      long: "%e. %B %Y"
+      long: "%e. %B %г"
       only_day: "%e"
       month_name: "%B"
       day_name: "%a"
     day_names:
-      - Sunday
-      - Monday
-      - Tuesday
-      - Wednesday
-      - Thursday
-      - Friday
-      - Saturday
+      - В неділю
+      - В понеділок
+      - У вівторок
+      - В середу
+      - У четвер
+      - В п'ятницю
+      - В суботу
     abbr_day_names:
-      - Su
-      - Mo
-      - Tu
-      - We
-      - Th
-      - Fr
-      - Sa
+      - СУ
+      - МО
+      - Ту
+      - Ми
+      - Че
+      - О.
+      - Са
     month_names:
       - null
-      - January
-      - February
-      - March
-      - April
-      - May
-      - June
-      - July
-      - August
-      - September
-      - October
-      - November
-      - December
+      - Січня
+      - Лютий
+      - Березня
+      - Квітня
+      - Може
+      - Червня
+      - Липня
+      - Серпня
+      - Вересня
+      - Жовтня
+      - Листопада
+      - Грудня
     abbr_month_names:
       - null
-      - Jan
-      - Feb
-      - Mar
-      - Apr
-      - Mai
-      - Jun
-      - Jul
-      - Aug
-      - Sep
-      - Oct
-      - Nov
-      - Dec
+      - Січня
+      - Лютого
+      - Березня
+      - Квітня
+      - МАІ
+      - Червня
+      - Липня
+      - Серпня
+      - Вересня
+      - Жовтня
+      - Листопада
+      - Грудня
     order:
-      - ':day'
-      - ':month'
-      - ':year'
+      - день
+      - ':місяць'
+      - рік
   time:
     formats:
-      default: "%a, %d. %B %Y"
-      short: "%e. %B, %H:%M o'clock"
-      long: "%A, %e. %B %Y, %H:%M o'clock"
-      time: "%H:%M"
-    am: "in the morning"
-    pm: "in the afternoon"
+      default: "%a, %d. %B %г"
+      short: "%e. %B, %h:%м годин"
+      long: "%A, %e. %B %р, %h:%м годин"
+      time: "%H:%М"
+    am: "вранці"
+    pm: "у другій половині дня"
   datetime:
     distance_in_words:
-      half_a_minute: 'half a minute'
+      half_a_minute: 'півхвилини'
       less_than_x_seconds:
-        one: 'less than 1 second'
-        few: 'less than {{count}} seconds'
-        other: 'less than {{count}} seconds'
+        one: 'менш ніж за 1 секунду'
+        few: 'менш ніж {{count}} секунд'
+        other: 'менш ніж {{count}} секунд'
       x_seconds:
-        one: '1 second'
-        few: '{{count}} seconds'
-        other: '{{count}} seconds'
+        one: '1 секунда'
+        few: '{{count}} секунд'
+        other: '{{count}} секунд'
       less_than_x_minutes:
-        one: 'less than one minute'
-        few: 'less than {{count}} minutes'
-        other: 'less than {{count}} minutes'
+        one: 'менш ніж за одну хвилину'
+        few: 'менш {{count}} хвилин'
+        other: 'менш {{count}} хвилин'
       x_minutes:
-        one: '1 minute'
-        few: '{{count}} minutes'
-        other: '{{count}} minutes'
+        one: '1 хвилина'
+        few: '{{count}} хвилин'
+        other: '{{count}} хвилин'
       about_x_hours:
-        one: 'about 1 hour'
-        few: 'about {{count}} hours'
-        other: 'about {{count}} hours'
+        one: 'близько 1 години'
+        few: 'про {{count}} годин'
+        other: 'про {{count}} годин'
       x_days:
-        one: '1 day'
-        few: '{{count}} days'
-        other: '{{count}} days'
+        one: '1 день'
+        few: '{{count}} днів'
+        other: '{{count}} днів'
       about_x_months:
-        one: 'about 1 month'
-        few: 'about {{count}} months'
-        other: 'about {{count}} months'
+        one: 'близько 1 місяця'
+        few: 'про {{count}} місяців'
+        other: 'про {{count}} місяців'
       x_months:
-        one: '1 month'
-        few: '{{count}} months'
-        other: '{{count}} months'
+        one: '1 місяць'
+        few: '{{count}} місяців'
+        other: '{{count}} місяців'
       about_x_years:
-        one: 'about 1 year'
-        few: 'about {{count}} years'
-        other: 'about {{count}} years'
+        one: 'близько 1 року'
+        few: 'про {{count}} років'
+        other: 'про {{count}} років'
       over_x_years:
-        one: 'over 1 year'
-        few: 'over {{count}} years'
-        other: 'over {{count}} years'
+        one: 'за 1 рік'
+        few: 'за {{count}} років'
+        other: 'за {{count}} років'
     prompts:
-      second: "seconds"
-      minute: "minutes"
-      hour: "hours"
-      day: "day"
-      month: "month"
-      year: "year"
+      second: "секунд"
+      minute: "хвилин"
+      hour: "годин"
+      day: "день"
+      month: "місяць"
+      year: "рік"
   number:
     format:
       precision: 2
@@ -953,12 +953,12 @@ uk:
         format: "%n %u"
         units:
           byte:
-            one: "Byte"
-            few: "Bytes"
-            other: "Bytes"
-          kb: "KB"
-          mb: "MB"
-          gb: "GB"
-          tb: "TB"
+            one: "Байт"
+            few: "Байт"
+            other: "Байт"
+          kb: "КБ"
+          mb: "МБ"
+          gb: "ГБ"
+          tb: "ТБ"
   newsletters:
-    send_confirmation: Are you sure?
+    send_confirmation: Ви впевнені?
