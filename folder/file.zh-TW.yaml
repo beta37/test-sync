@@ -1,0 +1,940 @@
+zh-TW:
+  application:
+    unexpected_error: 一个意想不到的错误。 对不起不便。
+    routing_error: 未知的网址。 重定向...
+    remote_error: '无法与远程服务。'
+    general:
+      more: 更多"
+      hide: '"好吧'
+      next: 下
+      back: 回
+      name: 名称
+      undefined: 没有进入
+      email: 电子邮件
+      email_confirmation: 确认电子邮件
+      ok: '"确定"'
+      or: 或
+      save: 保存
+      edit: 编辑
+      cancel: 取消
+      close: 靠近
+      send: 发送
+      upload: 上传
+      delete: 删除
+      create: 添加
+      incorporate: 合并
+      welcome: 欢迎光临
+      all: 所有
+      authors: 作者
+      share_action: '做一个回音的！'
+    roadmap:
+      title: 路线图
+      progress_tooltip: '这个地区的回声是{{progress}}％的准备。'
+      status_quo: '现状'
+      next_steps: '接下来的步骤'
+      vision: '在路的尽头'
+      discuss:
+        status_quo: 'echo"讨论"是目前<strong>{{progress}}%ready</strong>的。'
+        next_steps: '第一个特征echo"讨论"已被释放。 其功能将扩展的步骤，在下一个版本。'
+      connect:
+        status_quo: 'echo"Connect"目前<strong>{{progress}}%ready</strong>的。'
+        next_steps: 'echo"Connect"将是强化后的第一个特征echo"讨论"和echo"行为"已经被释放。'
+      act:
+        status_quo: '回声"行动"目前<strong>{{progress}}%ready</strong>的。'
+        next_steps: '发展echo"法案"将开始后的第一次功能的回声"讨论"已被释放。'
+      my_echo:
+        status_quo: '"我的回声"的区域是目前<strong>{{progress}}%ready</strong>的。'
+        next_steps: '进一步发展这个领域是计划后，一些基本功能"讨论，连接和法案"已被释放。'
+        vision: |
+          <p>
+          在长期的，我的回音的区域将是你的<strong>personal信息hub</strong>里的回声。 E.g。 它将提供
+          你最<strong>important news</strong>并请你注意最<strong>recent讨论，并根据actions</strong>
+          你的喜好。
+          </p>
+  help:
+    discuss:
+      closed_discussions:
+        hint: 标记，以创造封闭的讨论...
+        text: |
+          <p>Defining*标记(一)将使这一讨论的半封闭。 用户必须定义相同的
+          *标记作为一个决策标记在他们的个人资料能够参加讨论，但是它
+          将仍然可见和透明的到外面的世界。</p>
+          <p>Defining**标记(两**)将使这一讨论完全关闭。 它将只是可见的用户
+          具有同样的**标记作为一个决策标记在他们的个人资料。</p>
+          <p>Please注意，这只是一个临时的解决方案，以便于关闭进行的讨论的回声。 真实的
+          解决方案的圈子，邀请和细的分权管理将是未来之后。</p>
+    profile:
+      closed_discussions:
+        hint: 标签访问封闭的讨论...
+        text: |
+          <p>Here你可以进入的适当*标记和标签作为决策的标签。 这将允许你
+          参加在透明的、半封闭的讨论(标有*标记)，并请参阅关闭，内部
+          (受保护与**标记)的分别。</p>
+          <p>Please注意，这只是一个临时的解决方案，以便于关闭进行的讨论的回声。 真实的
+          解决方案的圈子，邀请和细的分权管理将是未来之后。</p>
+  layouts:
+    tabs:
+      discuss: 讨论
+      connect: 连接
+      act: 法
+      my_echo: 我的回声
+      admin: 管理员
+    outer_menu:
+      language: 语言
+      feedback: 反馈
+      about: 关于我们
+      logout: 注销
+      imprint: 印记
+      data_privacy: 数据隐私
+    discuss:
+      tabs: ""
+    connect:
+      tabs:
+        search: 探讨的社区
+    act:
+      tabs: ""
+    my_echo:
+      tabs:
+        welcome: 欢迎光临
+        profile: 我的档案
+        settings: 设置
+      profile_complete: '{{complete}}%完成'
+  users:
+    anonym: 化名
+    authors:
+      teaser:
+        title: '成为共同作者！'
+    remote_auth:
+      input_default:
+        openid: 你的身份URL
+    signup:
+      label: '注册'
+      member_tag: 没有一个会员吗？
+      via_echo: '...通过电子邮件'
+      via_social: '...通过现有的帐户'
+    setup_basic_profile:
+      title: '设置的基本资料'
+      guide: 请填写在你的基本概要信息来设置你的帐户。
+      agreement: 我已经阅读并同意的条款的数据政策。
+      use_photo: '利用回声，太'
+    signin:
+      label: '登录'
+      password: '密码'
+      member_tag: 已经一个会员吗？
+      via_echo: '...通过回声'
+      via_social: '...经过一个连接帐户'
+      set_password: 忘了密码了?
+      remember: 记住我！
+      hello: 记录in<br/><strong>{{name}}</strong>
+      hint: |
+        防止他人从记录中没有输入您的密码
+        请注销的用于社会的帐户(例如Facebook、Twitter)在底明确地.
+      messages:
+        success: "登录成功的。 欢迎回到回音。"
+        failed: "未知的用户或密码错误。"
+        failed_social: 请登录在一个帐户注册的或者说你接到你的回音的帐户。
+    signout:
+      messages:
+        success: "注销的成功。 请不要忘记，还注销从Facebook&co. 看到你以后。 再见！"
+    user_sessions:
+      messages:
+        session_timeout: "你届会议已经过期。 请登录。"
+    activation:
+      messages:
+        success: 你的账户已经成功地创建。 欢迎回来！
+        failed: |-
+          <p>Your帐户不能启动。 请检查你的输入。</p>
+        email_success: 你的电子邮件已经改变了成功！
+        already_active: 你的账户已经是活的！
+        no_account: 您的账户是不存在的！
+        no_full_name: 请填写你的全名。
+        no_agreement: 请确认我们的数据政策，以便登记册。
+    password_reset:
+      step1: 需要新的密码
+      step2: 界定新的密码
+      step1_text: |
+        <p>Forgot你的密码或者你只想定一个新的？</p>
+        <p>No问题！ 只是填写电子邮件地址用于登记在回声。
+        我们会送你一个电子邮件不久允许你要定义一个新的密码。</p>
+      step1_mail: 发送电子邮件
+      step2_text: |
+        请定义新的密码，你会喜欢使用登录到回音。
+      step2_ok: 套新密码
+      messages:
+        success: "我们给你发了电子邮件允许你要重设你的密码。 请检查你的收件箱。"
+        not_found: "未知的电子邮件地址。"
+        reset_success: "新密码已经被成功保存。"
+        reset_failed: "你的密码不能被更新。 请检查你的输入。"
+    profile:
+      to: 去档案
+      title: 个人信息
+      edit_title: 编辑您的个人信息
+      guide: 下你找到你的基本个人信息。 请新闻编辑按钮改变它。
+      gender:
+        male: 男性
+        female: 女性
+      location: 位置
+      password:
+        title: 改变密码
+        old: 当前的密码
+        new: 新密码
+        confirm: 确认新密码
+      picture:
+        upload_button: 改变
+      upload_picture:
+        title: 上传照片
+        guide: 请<strong>select一picture</strong>(JPG或PNG,max。 5MB)和上传。
+        progress: 你的头像正在上传。 请等等...
+      messages:
+        updated: "配置文件的信息更新的成功。"
+        image_invalid: '是无效或无法访问'
+    spoken_languages:
+      title: 语言技能
+      guide: |
+        在这里你可以进入你的语言技能<strong>see内容只有在语言中，你speak</strong>的。<br/>
+        此外，它将使你能够有助于回声截语言，文化间对话通过
+        <strong>translating statements</strong>之间的语言说话<strong>at少中间level</strong>的。
+        这是为了确保良好的内容的质量。<br/>
+        请不要忘记，还设置你的<strong>mother language</strong>的。
+      language: 语言
+      level: 水平
+      error_messages:
+        repeated_instance: 这种语言已经界定。
+    memberships:
+      title: 活动
+      guide: 在这里你可以进入你的自愿、专业和其他种类的活动在不同的组织。
+      organisation: 组织
+      position: 我的角色
+    web_addresses:
+      title: 网址
+      guide: |
+        在这里你可以进入一些联系人的数据和其他网络的配置文件。<br/>
+        <strong>PLEASE NOTE</strong>：现在，所有输入的信息将在这里
+        <strong>visible所有members</strong>的回的社区。
+      type: 种类的地址
+      address: 网址
+    concernments:
+      title: Concernments和能力
+      guide: |
+        我们所有人都有<strong>different facets</strong>的。 在一些领域，我们可能会受到影响和需要别人的帮助，
+        在其他领域，我们参与自己和提供有助于其他人。 在某些领域我们有专业的专门知识，
+        在其他我们可能代表其他人，并作出决定。<br/>
+        回声有助于志同道合的人找到彼<strong>knowledge补充每个other</strong>的。<br/>
+        这<strong>keywords(标签)</strong>你能描述<strong>your concernments和competences</strong>？
+      sorts:
+        affection: <strong>Impacted</strong>通过
+        engagement: <strong>Engaged</strong>在
+        expertise: <strong>Expert</strong>在场的
+        decision_making: <strong>Decision maker</strong>在场的
+      tags: 关键词(标签)
+    notifications:
+      title: 电子邮件通知设置
+      guide: 在这里你可以设定你是否愿意接收电子邮件通知在不同的科目。
+      newsletter:
+        title: 时事通讯
+        guide: 收到回音通讯。
+        turned_on: 你有订阅到回音通讯。
+        turned_off: 你必须取消订阅的回音通讯。
+      activity:
+        title: 活动的通知
+        guide: 每天更新新的讨论和新陈述，在讨论你是积极的。
+        turned_on: 活动的通知已交换。
+        turned_off: 活动通知已经关闭。
+      drafting:
+        title: 起草的通知
+        guide: |
+          立即更新，以按照共同创造性的起草过程中提出的建议和增加-
+          例如当你增加批准了以纳入。<br/><br/>
+          <strong>Attention!</strong>如果这种通知是关闭的，你可能轻易错过的机会
+          把你另外的想法变成提议你们的支持。
+        turned_on: 起草的通知已交换。
+        turned_off: 起草的通知已经关闭。
+    permissions:
+      title: 设置隐私
+      guide: 在回你的私人数据应该显示或要隐藏的?
+      authorship:
+        title: 作者声明
+        guide: 让其他记录在成员(但没有搜索引擎)的看看你的档案信息作为合作者的发言echo讨论。
+        turned_on: 你的档案信息将显示当显示的合作者的发言。
+        turned_off: 你将被显示为化名之中的其他作者的发言。
+    echo_account:
+      title: 回帐户
+      guide: 在这里你可以管理自己的回音的帐户。
+      change_email:
+        title: 改变电子邮件
+        guide: |
+          你目前登记的电子邮件地址：<strong>{{email}}</strong>.<br/>
+          您可以在这里定义的新地址回应使用保持联系。
+        password: 你的密码
+        success: 电子邮件改变了成功。
+        failed: 未能改变电子邮件。
+        no_password: 请输入您的有效密码改变你的电子邮件。
+      change_password:
+        title: 改变密码
+        guide: 请定义新的密码。
+        success: 你的密码已经被改变了成功。
+        failed: 未能改变你的密码。
+        wrong_password: 输入电流密码是错误的。
+      delete_account:
+        title: 删除帐户
+        password: 你的密码
+        guide: |
+          <p><strong>ATTENTION!</strong></p>
+          <p>Your账户和所有个人数据将<strong>permanently deleted</strong>的。<br/>
+          的回声，你们会保持完全匿名。</p>
+          <p>Please输入您的密码并点击按钮，如果你想要继续进行。</p>
+        confirm: 删除我的账号，永久地
+        success: 你回帐户已成功地删除。
+    social_accounts:
+      title: 社会帐户
+      guide: 连接了你的账户方便地共享和放大你的回通过其他社会网络。
+      providers:
+        facebook: Facebook
+        twitter: Twitter
+        yahoo!: Yahoo!
+        linkedin: LinkedIn
+        google: 谷歌
+      connect:
+        title: 连接
+        success: 你{{account}}账户已经连接成功。
+        failed: 无法连接到你的{{account}}帐户。
+      disconnect:
+        title: 断开
+        success: 你{{account}}的帐户已被中断。
+        failed: 没断开你的{{account}}帐户。
+      share:
+        title: 传播这个词
+        guide: 做一个回音在你的社交网络。
+        text: 消息
+        data_privacy:
+          title: 数据隐私权的通知
+          description: 心中的隐私政策的其他网络之前分享你的意见...
+        preview: 的预览
+        submit: 送回声
+        error: 东西去了错误的，同时分享你的回音。 请检查你的网络连接。
+        success: |
+          作出回通过{{accounts}}的。
+        failed: |
+          未能通过分享{{accounts}}的。
+        timeout: |
+          连接{{accounts}}超时了!
+        enabled: "上"
+        disabled: "关闭"
+    users:
+      new:
+        title: 你的回声
+        subtitle: 参加回声
+        text: |
+          <p>
+          <strong>echo是民主的人民。</strong>
+          </p><p>
+          现在就加入我们，参加！
+          </p>
+        action: '现在就加入了。'
+      messages:
+        created: "请查收电子邮件，以激活新创建的帐户！"
+        activate_email: 为了完整的电子邮件地址的修改，请登出，并按confimation链接发到你的新电子邮件地址！
+    reports:
+      new:
+        title: "报告的用户"
+        text: |
+          <p>Did你看<strong>offensive、不道德或非法内容？</strong><br/>
+          如果是这样，这里可以报告的用户到我们的管理团队。
+          </p><p>
+          我们会检查该问题尽快。
+          </p>
+      messages:
+        created: "感谢您对您的消息。 管理员是通知。"
+  discuss:
+    my_questions:
+      link: 我的问题
+      title: 我的新的和出版问题
+      no_questions: |
+        你还没有造成任何问题。 要做到这一点，请点击问题上的标记。
+      add: 添加新问题
+    translation_request: 请将这一声明<strong>ENGLISH</strong>的。
+    mixed_languages: 混杂的语言
+    set_languages: 设置你的<strong>LANGUAGE SKILLS</strong>-擦出的噪音！
+    no_locale_language: 你会说英语吗？
+    adjust_languages: 请定义<strong>ENGLISH语言skills</strong>!
+    results_count:
+      one: '{{count}}问题'
+      more: '{{count}}问题'
+    for: |-
+      为'{{value}}'
+    featured_topics:
+      title: 特色主题
+      tabs:
+        echo:
+          title: 回声有关
+        pilot_projects:
+          title: 试点项目
+    search:
+      title: 搜索
+      in: '...在{{category}}...'
+      add: "创建第一个问题有关的主题"
+      placeholder: "主题和/或感兴趣的地方"
+    tooltips:
+      read_question: '转到这个问题'
+      read_proposal: '阅读这项提案'
+      read_improvement: '阅读本外'
+      read_pro_argument: '读这个专业的论点'
+      read_contra_argument: '读到这个禁忌的论点'
+      read_follow_up_question: '读这个后续问题'
+      current_question: '当前显示的问题'
+      current_proposal: '当前显示的提议'
+      current_improvement: '当前显示的外'
+      current_pro_argument: '当前显示的亲参数'
+      current_contra_argument: '当前显示的反的论点'
+      current_background_info: '当前显示的背景信息'
+      current_follow_up_question: '当前显示的后续行动的问题'
+      back_to_question: '回到目前的问题'
+      back_to_proposal: '回到目前的建议'
+      back_to_improvement: '回到目前的外'
+      prev_question: '阅读以前的问题在下文上所示'
+      next_question: '阅读下一个问题在下文上所示'
+      prev_proposal: '阅读以前的建议对于当前问题'
+      next_proposal: '阅读下一项提案，用于目前的问题'
+      prev_improvement: '阅读以前除了针对目前的建议'
+      next_improvement: '阅读下一步除了为目前的建议'
+      prev_pro_argument: '阅读以前的论点对于目前的提议'
+      next_pro_argument: '阅读下一个说法目前的提议'
+      prev_contra_argument: '阅读以前的论点对于目前的提议'
+      next_contra_argument: '阅读下一个说法目前的提议'
+      prev_background_info: '请参阅以前的背景信息对当前的发言'
+      next_background_info: '看到下一步的背景信息对当前的发言'
+      prev_follow_up_question: '阅读以前的后续行动的问题在下文上所示'
+      next_follow_up_question: '阅读下一步后续行动的问题在下文上所示'
+      create_question: '创建一个新的问题'
+      create_proposal: "后一项新建议对于当前问题"
+      create_improvement: "后新增加了目前的建议"
+      create_pro_argument: "后一个新的专业参数的当前提案"
+      create_contra_argument: "发布了新的反论据目前的建议"
+      create_alternative: "发布了新的反对这个声明"
+      create_background_info: "建议一个新的背景信息，与此相关的声明"
+      create_follow_up_question: "后一种新的新后续行动问题，关于这句话"
+      echo: '回这一声明来支持它!'
+      unecho: '撤销你的回声停止支持这一声明'
+      publish: |
+        释放的问题，使它可见于每个人。
+        (事后没有进一步的编辑是可能的。)
+      incorporate: '按这里要把这个加入提案上。'
+      siblings:
+        question: 看到的所有问题上所示
+        proposal: 看到的所有建议属于当前问题
+        improvement: 看到所有的补充建议为目前的建议
+        pro_argument: 看到的所有论点，属于目前的提议
+        contra_argument: 看到的所有论点，属于目前的提议
+        background_info: 看到的所有背景的相关信息属于当前的声明
+      link_statement: |-
+        进入一个部分的标题或粘贴在该网址的发言。
+        然后按下这个按钮可以重复使用的语句，在目前上下文中。
+      unlink_statement: "再次点击按键要取消这项声明。"
+    statements:
+      label: '选民'
+      echo_link: '支持(回声)'
+      unecho_link: '撤回投票'
+      echo_indicator:
+        one: '{{supporter_count}}的支持者'
+        many: '{{supporter_count}}的支持者'
+      add_new: 新的声明
+      embed_button: 嵌入
+      embed_search_title: 嵌入的搜索结果
+      embed_search_hint: |-
+        抄和粘贴到代码之下，以嵌入这些搜索结果进入你的网站，并使回声在你的社区。
+      embed_statement_title: 嵌入的发言
+      embed_statement_hint: |-
+        抄和粘贴到代码之下，以嵌入这一声明成为你的网站，并使回声在你的社区。
+      copy_url: 链接到
+      copy_url_title: 链接到的发言
+      copy_url_hint: '复制链接到该声明并使用它以传播通过你最喜欢的通道。'
+      create_question_link: '创建新的问题'
+      create_proposal_link: 添加新的建议
+      create_internal_link: '新的想法吗？'
+      create_improvement_link: 建议新的外
+      create_pro_argument_link: 添加新的亲参数
+      create_contra_argument_link: 添加新的反的论点
+      create_alternative_link: 添加新的反对派
+      create_background_info_link: 加入新的背景信息
+      create_follow_up_question_link: 添加新的后续问题
+      preview_embedded_content: 的预览
+      open_embedded_content: 在新窗口打开
+      statement_language_hint: |
+        请设置自己的语言能力在你的<a href='{{url}}'>Profile</a>的。
+      statement_language_hint_tooltip: |
+        这将使你能够进入发言的任何语言，至少在中级水平。
+      drafting_language_hint: |
+        请注意，集体地位的提高，这一建议才有可能在所选择的语言！
+      fuq_formulation_hint: |
+        由于后续行动的问题也出现问题中的"搜索"、标题和简介都应该
+        理解独立的原始讨论。
+      tag_permission: |
+        你没有权限插入'{{tag}}'的标签。
+      read_permission: |
+        你没有权限来阅读这一发言。
+      title_hint:
+        question: 该问题在...英语吗？
+        proposal: 该提案的标题...英语吗？
+        improvement: 输入的外在标题...英语吗？
+        pro_argument: 输入的专业论题在...英语吗？
+        contra_argument: 进入禁忌的参数标题中...英语吗？
+        background_info: 该背景信息，在标题...英语吗？
+        follow_up_question: 酒后续行动的问题。英语吗？
+      text_hint:
+        alternative_prefix: |
+          对立是相互排斥的原始声明和所有其他的替代品。<br/><br/>
+        question: 请描述这个问题在更多的细节和要求一个具体的的问题...
+        proposal: |
+          请描述一下你的建议更详细的...<br/><br/>
+          根据这个问题，建议可以被理解为一个可能的答案，
+          解决办法或立场的问题。
+        improvement: |
+          请说明您的外或修正案的提案中更详细地...<br/><br/>
+          这些补充为基础的回声民主进程的联合和拟订
+          改进的建议。 提交人的补充，与最大的支持是定期的
+          机会合并他们的想法和想法变成提议。
+        pro_argument: 请描述你的观点为该提案的更多细节...
+        contra_argument: 请描述你的观点反对这项提议的更详细的...
+        background_info: |
+          请描述建议的背景信息，不告诉你为什么
+          觉得有趣的是在这一背景下...
+        follow_up_question: 请描述一下你的后续行动问题的更详细的...
+      tag_hint: '进入标记在这里...'
+      info_url_hint: '进入链接到外部内容'
+      publish: 释放
+      published: 该问题已被释放的成功。
+      edit: '编辑{{type}}'
+      types:
+        question: '的问题'
+        proposal: '提案'
+        improvement: '除了'
+        pro_argument: '亲参数'
+        contra_argument: '反的论点'
+        alternative: '反对派'
+        background_info: '背景信息'
+        follow_up_question: '后续问题'
+      new:
+        question: '新问题'
+        proposal: '新建议'
+        improvement: '新的外'
+        pro_argument: '新的专业参数'
+        contra_argument: '新的反的论点'
+        background_info: '新的背景信息'
+        follow_up_question: '新的后续问题'
+      headings:
+        question: '的问题'
+        proposal: '提案'
+        improvement: '增加'
+        argument: '优点和缺点'
+        alternatives: '替代品'
+        background_info: '背景信息'
+        follow_up_question: '后续问题'
+      sibling_labels:
+        question: '的问题'
+        proposal: '提案'
+        improvement: '增加'
+        argument: '参数'
+        background_info: '背景'
+        follow_up_question: '的问题'
+      siblings:
+        background_info: '背景信息'
+        follow_up_question: '后续行动的问题在下文上所示'
+      topic: 题目(标记的关键字)
+      states:
+        label: '发布问题立即？'
+        initial_state:
+          new: '设立第一和发布后'
+          published: '立即发布的(进一步的编辑将是有限的)'
+        published: 释放
+        approved: 批准
+      delete_link: '删除'
+      delete_confirmation: '你确定要删除这个声明吗？'
+      read_only_permission: |-
+        这是一个透明的但是目前的讨论中，你只能阅读。
+      unsupported_parent: |-
+        你只能支持补充，如果你支持这项建议本身。
+      not_approved_any_more: |-
+        不幸的是，此外，不能纳入任何更长的时间。
+      see_parent_if_approved: |-
+        所请求之外，目前已批准将被纳入该提案如下。
+      see_parent_if_incorporated: |-
+        请求除了已经纳入建议如下。
+      being_edited: |-
+        该声明目前正在编辑中。 请稍后再试一次。
+      statement_updated: |-
+        这{{type}}刚刚经过更新的通过另一个人。
+      statement_supported: |-
+        谢谢你回到{{type}}的。
+      statement_unsupported: |-
+        你撤离你的回声从{{type}}的。
+      edit_period_hint: |
+        你有<strong>{{minutes}}minutes</strong>编辑的发言。
+        事后，你的修改，甚至可能会被丢弃。
+      staled_modification: '我们非常抱歉，但是你超过60分钟的限制，编辑和保存的声明。 与此同时，它已经更新，由一个不同的用户。 因此，您必须改变已不幸的是废弃。'
+      no_document_in_language: '该声明不存在的英语。'
+      supporter_to_share: '你必须支持这一声明，以便分享它！'
+      published_to_share: '这种讨论尚未发表。 在那之前，它是不可能的分享。'
+      cannot_be_edited: 不幸的是，你不能编辑本声明之后，其他成员的支持。 这是为了避免伪装的意见。
+      cannot_be_linked: 不幸的是，这个声明不能在目前上下文中。
+      echos_label: 支持
+      linking:
+        disabled: 链接
+        enabled: 链接
+      breadcrumbs:
+        discuss_search: 搜索结果
+        my_questions: 我的问题
+        labels:
+          ds: ''
+          mi: ''
+          sr: '问题找到'
+          pr: '建议'
+          im: '增加'
+          ar: '参数'
+          bi: '背景信息'
+          fq: '后续行动的问题'
+          jp: '下面的链接'
+          over:
+            ds: '回到'
+            mi: '回到'
+            sr: '回搜索结果'
+            pr: '回到'
+            im: '回到'
+            ar: '回到'
+            bi: '回到'
+            fq: '回到'
+            jp: '回到'
+      upload_image:
+        title: 图像上传
+        guide: 请<strong>select一image</strong>(JPG或PNG,max。 5MB)和上传。
+        progress: 图像正在上传。 请等等...
+        error: 图像不能被应用。 请上传一个支持格式(JPG或PNG和最大。 5MB).
+      add_teaser:
+        question: |
+          这就是你的问题可能会出现。<br/><br/>Have你有一个吗？<br/><br/>
+          按上面的按钮输入它现在！
+        proposal: |
+          这就是你的建议问题可能会出现。<br/><br/>Have你有一个吗？<br/><br/>
+          按上面的按钮输入它现在！
+        improvement: |
+          这是你的外或修正案的提案能够出现。<br/><br/>Have你有一个吗？<br/><br/>
+          按上面的按钮输入它现在！
+        pro_argument: |
+          这就是你的论点的提案能够出现。<br/><br/>Have你有一个吗？<br/><br/>
+          按上面的按钮输入它现在！
+        contra_argument: |
+          这是你的参数反对这项建议可能出现。<br/><br/>Have你有一个吗？<br/><br/>
+          按上面的按钮输入它现在！
+        background_info: |
+          这是一个新的背景信息有关的当前的声明可能会出现。<br/><br/>
+          你想推荐一个吗？<br/><br/>
+          按上面的按钮输入它现在！
+        follow_up_question: |
+          这是你的后续行动的问题可能会出现。<br/><br/>Have你有一个吗？<br/><br/>
+          按上面的按钮输入它现在！
+    summary:
+      title: '摘要'
+    messages:
+      created: "新{{type}}已经输入了成功。"
+      updated: "该{{type}}已成功更新。"
+      deleted: "该{{type}}已经删除成功。"
+      translated: "该{{type}}已经被翻译成功。"
+      incorporated: "此外，已经成功地纳入该提案。"
+      image_uploaded: "图像已被添加到{{type}}的。"
+      new_percentage: "你的档案是{{percentage}}%完成。"
+  connect:
+    fill_out_profile:
+      text: '请填写<strong>at少{{percentage}}%</strong>你的个人资料使"计算机"乐意让这块消失。 :-)'
+      name: '我的档案'
+      description: '完成你的档案明自己在回的社区。'
+    placeholder: '主题、地点、组织或名称的兴趣'
+    segments:
+      all: '所有'
+      affection: '受到影响'
+      engagement: '从事的'
+      expertise: '专家'
+      decision_making: '决策者'
+    results_count:
+      all:
+        no_filter:
+          one: '人'
+          more: '人'
+        with_filter:
+          one: "人相关的'{{filter}}'"
+          more: "人相关的'{{filter}}'"
+      affection:
+        no_filter:
+          one: 受影响的人
+          more: 受影响的人
+        with_filter:
+          one: "人的影响'{{filter}}'"
+          more: "人民受到'{{filter}}'"
+      engagement:
+        no_filter:
+          one: 从事人
+          more: 从事人
+        with_filter:
+          one: "人从事的'{{filter}}'"
+          more: "人们从事的'{{filter}}'"
+      expertise:
+        no_filter:
+          one: 专家
+          more: 专家
+        with_filter:
+          one: "专家在'{{filter}}'"
+          more: "专家在'{{filter}}'"
+      decision_making:
+        no_filter:
+          one: 决策者
+          more: 决策者
+        with_filter:
+          one: "决策者在'{{filter}}'"
+          more: "决策者在'{{filter}}'"
+    details:
+      tabs:
+        overview: '概述'
+        concernments: '管辖权'
+        web_addresses: '网址'
+      actions:
+        report: "报告"
+        send_mail: "发送消息"
+    messages:
+      empty: '没有任何成员发现。 请你的搜索标准。'
+      no_concernments: "这件没有定义的任何concernments和能力。"
+      no_web_addresses: "这件没有界定任何网站地址。"
+  feedback:
+    new:
+      title: 反馈
+      welcome: |
+        <p>
+        <strong>We很乐意听听你的意见！</strong><br/>
+        </p><p>
+        毫不犹豫地提出问题、作出评论或离开批评或荣誉。
+        </p>
+      message: 消息
+      send: 发送消息
+    create:
+      thank_you: 谢谢您的反馈意见。
+  user_mail:
+    new:
+      title: 发送邮件
+      guide: 在这里你可以发送电子邮件联系选定的回声件。
+      subject: 受
+      text: 消息
+    create:
+      thank_you: 您的信息已经发送成功。
+  activerecord:
+    errors:
+      models:
+        feedback:
+          attributes:
+            blank: '请填写的所有领域。'
+            email:
+              invalid: '请输入一个有效的电子邮件地址。'
+        newsletter:
+          attributes:
+            blank: '请填写的所有领域。'
+            email:
+              invalid: '请输入一个有效的电子邮件地址。'
+        user:
+          attributes:
+            email:
+              taken: '电子邮件地址已经在使用。'
+              invalid: '请输入一个有效的电子邮件地址。'
+            password:
+              invalid: '密码错误。'
+        social_identifier:
+          taken: '这个社会的账户已经在使用。 请登录。'
+      messages:
+        blank: "该领域的'{{attribute}}'必须不是空的。"
+        taken: '已经在使用。'
+        too_short: "你输入'{{attribute}}'是太短。"
+        too_long: "你输入'{{attribute}}'太长。"
+        invalid: "你输入'{{attribute}}'必须在一个有效的格式。"
+        confirmation: '{{attribute}}确认不匹配。'
+        access_denied: "你是不是允许执行这一行动。"
+      template:
+        header:
+          other: "{{count}}领域都充满了不正确。"
+        body: "请更正如下："
+    attributes:
+      profile:
+        email: 电子邮件
+        full_name: 名称
+        gender: 性别问题
+        city: 城市
+        country: 国
+        location: 位置
+        about_me: 关于我的
+        motivation: 想回声
+        memberships: 活动
+        spoken_languages: 语言技能
+      report:
+        reason: '的原因'
+      web_address:
+        location: '网址'
+      membership:
+        position: 我的角色
+      statement_node:
+        image: '像文件'
+      statement_document:
+        language_id: '语言'
+        language: '语言'
+        title: '标题'
+        text: '摘要'
+        image: '图'
+      statement:
+        info_type_id: '内容类型'
+      statement_data:
+        info_url: '背景资料的链接'
+      about_item:
+        photo: '照片'
+        name: '名称'
+        responsibility: '责任'
+        description: '描述'
+        about_category_id: '关于项目'
+        index: '索引'
+    models:
+      question: "的问题"
+      proposal: "提案"
+      improvement: "除了"
+      pro_argument: '亲参数'
+      contra_argument: '反的论点'
+      follow_up_question: '后续问题'
+  authlogic:
+    error_messages:
+      email_invalid: "请输入正确的电子邮件地址。"
+      password_blank: "密码必须加以定义。"
+      not_active: "你的帐户还没有被激活。 请检查你的收件箱。"
+      must_be_logged_in: "请登录在执行这一行动。"
+      must_be_logged_out: "请登出来执行这一行动。"
+    attributes:
+      user_session:
+        email: 电子邮件
+        password: 密码
+  date:
+    formats:
+      default: "%d的。%m。%Y"
+      short: "%e的。 %b"
+      long: "%e的。 %B%Y"
+      only_day: "%e"
+      month_name: "%B"
+      day_name: "%a"
+    day_names:
+      - 周日
+      - 星期一
+      - 星期二
+      - 星期三
+      - 星期四
+      - 星期五
+      - 星期六
+    abbr_day_names:
+      - 苏
+      - Mo
+      - Tu
+      - 我们
+      - Th
+      - Fr
+      - Sa
+    month_names:
+      - null
+      - 一月
+      - 二月
+      - 三月
+      - 四月
+      - 可
+      - 六月
+      - 七月
+      - 八月
+      - 九月
+      - 十月
+      - 十一月
+      - 十二月
+    abbr_month_names:
+      - null
+      - Jan
+      - 二月
+      - 玛
+      - Apr
+      - 迈
+      - Jun
+      - Jul
+      - Aug
+      - Sep
+      - Oct
+      - Nov
+      - Dec
+    order:
+      - '：一天'
+      - ':月'
+      - 年份
+  time:
+    formats:
+      default: "%a,%d的。 %B%Y"
+      short: "%e的。 %B,%H:%M点"
+      long: "%A,%e的。 %B%Y%H:%M点"
+      time: "%H:%M"
+    am: "在早晨"
+    pm: "在下午"
+  datetime:
+    distance_in_words:
+      half_a_minute: '半分钟'
+      less_than_x_seconds:
+        other: '少于{{count}}秒'
+      x_seconds:
+        other: '{{count}}秒'
+      less_than_x_minutes:
+        other: '少于{{count}}分钟'
+      x_minutes:
+        other: '{{count}}分钟'
+      about_x_hours:
+        other: '关于{{count}}小时'
+      x_days:
+        other: '{{count}}天'
+      about_x_months:
+        other: '关于{{count}}个月'
+      x_months:
+        other: '{{count}}个月'
+      about_x_years:
+        other: '关于{{count}}年'
+      over_x_years:
+        other: '在{{count}}年'
+    prompts:
+      second: "几秒钟"
+      minute: "分钟"
+      hour: "小时"
+      day: "一天"
+      month: "一个月"
+      year: "年"
+  number:
+    format:
+      precision: 2
+      separator: ','
+      delimiter: '中。'
+    currency:
+      format:
+        unit: '欧元'
+        format: '%n%u'
+        separator: ""
+        delimiter: ""
+        precision: ""
+    percentage:
+      format:
+        delimiter: ""
+    precision:
+      format:
+        delimiter: ""
+    human:
+      format:
+        delimiter: ""
+        precision: 1
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            other: "字节"
+          kb: "KB"
+          mb: "MB"
+          gb: "GB"
+          tb: "TB"
+  newsletters:
+    send_confirmation: 你确定吗？

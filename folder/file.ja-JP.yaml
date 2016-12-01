@@ -1,0 +1,940 @@
+ja:
+  application:
+    unexpected_error: 予期せぬエラーが発生しました。 ご迷惑をおかけいたします
+    routing_error: 未知のURLです。 残念...
+    remote_error: '失敗したニューをリモートサービスです。'
+    general:
+      more: '"'
+      hide: '"大丈夫'
+      next: 次へ
+      back: 裏
+      name: 名称
+      undefined: 未入力
+      email: E-Mail
+      email_confirmation: 確認E-Mail
+      ok: Ok
+      or: または
+      save: 保存
+      edit: 編集
+      cancel: 消
+      close: 近
+      send: 送信
+      upload: アップロード
+      delete: 削除
+      create: 追加
+      incorporate: 取り込み
+      welcome: 歓迎
+      all: すべての
+      authors: 著者
+      share_action: 'くのエコーです！'
+    roadmap:
+      title: ロードマップ
+      progress_tooltip: 'このエコーは{{progress}}%ます。'
+      status_quo: '現状'
+      next_steps: '次のステップ'
+      vision: '末道'
+      discuss:
+        status_quo: 'echo"の話"では、現在<strong>{{progress}}%ready</strong>ます。'
+        next_steps: 'には、オーストラリアでのエコーの"議論"に公開されています。 機能する段階、次にリリースなどで行っています。'
+      connect:
+        status_quo: 'echo"Connect"は、現在<strong>{{progress}}%ready</strong>ます。'
+        next_steps: 'echo"Connect"は、今後は、オーストラリアでのエコーとして"エコーに関する法律""が公開されています。'
+      act:
+        status_quo: 'エコー法"は、現在<strong>{{progress}}%ready</strong>ます。'
+        next_steps: 'の開発echo"の開始後最初の機能echo"の話"を発表いたしました。'
+      my_echo:
+        status_quo: '"私のエコー"は、現在<strong>{{progress}}%ready</strong>ます。'
+        next_steps: '開発された領域の後、いくつかの基本機能"について議論し、接続して、法"の販売が開始されています。'
+        vision: |
+          <p>
+          長期的には、私のエコー領域にお<strong>personal情報hub</strong>内のエコーです。 E.g. の場を提供します
+          きの<strong>important news</strong>や電話に注意を向けて最も<strong>recent議論actions</strong>に
+          お客様のお好みます。
+          </p>
+  help:
+    discuss:
+      closed_discussions:
+        hint: タグを閉じた議論を---
+        text: |
+          <p>Defining a*タグ（はじめの一*)この議論をセミクローズします。 ユーザーを定義する必要が同じ
+          *タグとしての意思決定のタグのプロフィールに参加することができ、議論していると考えられ
+          のままに見える透明性のある外の世界です。</p>
+          <p>Defining a**タグ（**）この議論さないようにして下さい。 するわけではなく、可視化し、物流を進化させるユーザー
+          同じ**タグとしての意思決定のタグはプロファイルです。</p>
+          <p>Pleaseされることに注意してくださは解決策を閉じた議論をエコーします。 実
+          溶液界、招待状、傾斜アクセス権を管理することは、今後ます。</p>
+    profile:
+      closed_discussions:
+        hint: タグへのアクセスを閉じた議論を---
+        text: |
+          <p>Hereを入力することが可能です適切な*タグ**タグとしての意思決定のタグです。 ることができま
+          参透明、半閉じた議論にタグ付き(*タグ)に、内部
+          これまで歩んできたやり方（保護**タグをするものではありません。</p>
+          <p>Pleaseされることに注意してくださは解決策を閉じた議論をエコーします。 実
+          溶液界、招待状、傾斜アクセス権を管理することは、今後ます。</p>
+  layouts:
+    tabs:
+      discuss: 議
+      connect: 接続
+      act: 法
+      my_echo: 私のエコー
+      admin: Admin
+    outer_menu:
+      language: 言語
+      feedback: 声
+      about: について
+      logout: アウト
+      imprint: インプリント
+      data_privacy: データプライバシー
+    discuss:
+      tabs: ""
+    connect:
+      tabs:
+        search: 散策地域
+    act:
+      tabs: ""
+    my_echo:
+      tabs:
+        welcome: 歓迎
+        profile: マイプロフィール
+        settings: 設定
+      profile_complete: '{{complete}}真'
+  users:
+    anonym: Anonym
+    authors:
+      teaser:
+        title: 'と共著です！'
+    remote_auth:
+      input_default:
+        openid: おOpenID URL
+    signup:
+      label: '登録'
+      member_tag: ないか。
+      via_echo: '...Eメール'
+      via_social: '...によ既存のアカウント'
+    setup_basic_profile:
+      title: '基本プロファイルの設定'
+      guide: 英語＆日本語で入力してください基本的なプロファイル情報を設定アカウントを設定します。
+      agreement: 私はをお読みいただき、ご同意のデータセットのデータポリシーです。
+      use_photo: '使用echoも'
+    signin:
+      label: 'ログイン'
+      password: 'パスワード'
+      member_tag: 既にするのですか？
+      via_echo: 'echo）を介して...'
+      via_social: '...を介して接続口'
+      set_password: パスワードを忘れたら？
+      remember: 覚えていくのだ！
+      hello: ログインin<br/><strong>{{name}}</strong>
+      hint: |
+        そのログインせずにパスワードを入力してくださり、
+        ご使用の使用のソーシャルアカウント（Facebook、Twitter）のexplicitelyます。
+      messages:
+        success: "ログインに成功します。 おかえりなさをエコーします。"
+        failed: "不明ユーザーまたは誤ったパスワードです。"
+        failed_social: 下記の口座にご登録いただいたときに接続されているエコー。
+    signout:
+      messages:
+        success: "使用に成功します。 決して忘れていただきたくないものを使用からFacebook&co. では、また明日お会いしましょうです。 です。"
+    user_sessions:
+      messages:
+        session_timeout: "セッションが終了しました。 ログインしてください。"
+    activation:
+      messages:
+        success: アカウントの作成に成功した. ウエコーです！
+        failed: |-
+          <p>Your口座がないが活性化されることになります。 を確認してください。</p>
+        email_success: メールを変更した！
+        already_active: アカウントは既に活躍しています！
+        no_account: お客様の口座が存在しない!
+        no_full_name: 英語＆日本語で入力してください氏名ます。
+        no_agreement: をご確認ください当社のデータセットのデータポリシーを登録します。
+    password_reset:
+      step1: 必要と新しいパスワード
+      step2: 新しいパスワードの定義
+      step1_text: |
+        <p>Forgotパスワードはいけなどを定めたものですか？</p>
+        <p>No問題です！ で記入頂いたメールアドレスを登録するために使用致します。
+        をお送りいたしますのでE-mailまきを定義する新しいパスワードです。</p>
+      step1_mail: メール送信
+      step2_text: |
+        される新しいパスワードを使いログインechoます。
+      step2_ok: 新しいパスワードの設定
+      messages:
+        success: "ということをE-mailできるので、リセットパスワードを入力して下さい。 メールの受信をご確認ください。."
+        not_found: "未知のE-メールアドレスにお送りします。"
+        reset_success: "新しいパスワードを保存しています。"
+        reset_failed: "パスワードが更新されます。 を確認してください。"
+    profile:
+      to: Goのプロフィール
+      title: 個人情報
+      edit_title: 個人情報の編集
+      guide: 以下のページにお探しの個人情報基本です。 を押してください編集ボタンを変更します。
+      gender:
+        male: 男性
+        female: 女性
+      location: 所在地
+      password:
+        title: パスワードの変更
+        old: 現在のパスワード
+        new: 新しいパスワード
+        confirm: 新しいパスワードの確認
+      picture:
+        upload_button: 変化
+      upload_picture:
+        title: アップロード写真
+        guide: ください<strong>select、picture</strong>(JPGまたはPNG、最大です。 5MB)にアップロードしてくださいます。
+        progress: 自分のアバターがアップしました。 しばらくお待ち下さい。
+      messages:
+        updated: "プロフィール情報を更新しました。"
+        image_invalid: '無効または利用できな'
+    spoken_languages:
+      title: 語学力
+      guide: |
+        ここで入力できる言語能力を<strong>seeコンテンツのみの言語ですspeak</strong>ます。<br/>
+        また、すでに貢献するechosクロス言語、異文化間の対話による
+        <strong>translating statements</strong>間の言語を話す<strong>at少なくとも中間level</strong>ます。
+        これは良くするために、コンテンツの品質です。<br/>
+        決して忘れていただきたくないものを設定<strong>mother language</strong>ます。
+      language: 言語
+      level: レベル
+      error_messages:
+        repeated_instance: この言語で既に定義されています。
+    memberships:
+      title: 活動
+      guide: ここにお入りいただけ自由ですが、プロのその他の種類の異なる組織です。
+      organisation: 組織
+      position: 私の役割
+    web_addresses:
+      title: ウェブアドレス
+      guide: |
+        ここで入力できますの連絡先データアジャイルプロジェクトのプロファイルです。<br/>
+        <strong>PLEASE NOTE</strong>：現在、全ての情報を入力します
+        <strong>visibleすべてのmembers</strong>のエコーです。
+      type: のようなアドレス
+      address: ウェブアドレス
+    concernments:
+      title: Concernments&力
+      guide: |
+        全<strong>different facets</strong>ます。 一部の地域でもしれの影響を受け援助を必要とし、その
+        どを行っていますし、提供するようになります。 特定の分野において専門技
+        その他のいかはその人を判断します。<br/>
+        エコーを同じ志を持つ人を探して互<strong>knowledge補完しother</strong>ます。<br/>
+        る<strong>keywords(タグ)</strong>いについて説明していただけま<strong>your concernmentsとcompetences</strong>す。
+      sorts:
+        affection: <strong>Impacted</strong>による
+        engagement: <strong>Engaged</strong>に
+        expertise: <strong>Expert</strong>分野
+        decision_making: <strong>Decision maker</strong>分野
+      tags: キーワード(タグ)
+    notifications:
+      title: Eメール通知の設定
+      guide: ことができるかどうかを設定したいメールを受け取る通知に異なる科目です。
+      newsletter:
+        title: Newsletter
+        guide: Echoを受けてきました。
+        turned_on: ご契約中のエコーの情報誌です。
+        turned_off: でも退会からのエコーの情報誌です。
+      activity:
+        title: 活動を通知
+        guide: 毎日更新しい議論や新たに記載する議論が活躍します。
+        turned_on: 活動を通知して切り替えます。
+        turned_off: 活動を通知して電源を切です。
+      drafting:
+        title: 通知作成
+        guide: |
+          即時更新の共創コミュニケーション策定プロセスの提案-追加-
+          などが追加された組み込まれます。<br/><br/>
+          <strong>Attentionす！</strong>この通知が容易を逃す
+          をご追加のアイデアの提案を支持します。
+        turned_on: 草通知して切り替えます。
+        turned_off: 草通知して電源を切です。
+    permissions:
+      title: プライバシー設定
+      guide: どのエコーお客様の個人データを表示するかを指定しますし、又は隠れたのか？
+      authorship:
+        title: 著書
+        guide: もうその他のログイン会員が検索エンジン)のプロフィールが表示される情報と共著の書echoを示唆しています。
+        turned_on: プロフィール情報の表示表示した場合、共著者の記述です。
+        turned_off: きに表示されAnonymその他の著者の分析とします。
+    echo_account:
+      title: エコーウ
+      guide: こちらで管理しまechoます。
+      change_email:
+        title: 変更E-Mail
+        guide: |
+          だが現在登録され、E-メールアドレス:<strong>{{email}}</strong>.<br/>
+          ここで定義することができ、新しい住所のエコーを使って連絡を取り続けています。
+        password: パスワード
+        success: E-Mailの変更が成功しました。
+        failed: 失敗した変更にE-Mailます。
+        no_password: ご入力くださいパスワードが有効にな変更のお知らせします。
+      change_password:
+        title: パスワードの変更
+        guide: される新しいパスワードです。
+        success: パスワード変更に成功します。
+        failed: 失敗したパスワードを変更します。
+        wrong_password: 入力された現在のパスワードが間違っています。
+      delete_account:
+        title: アカウントを削除する
+        password: パスワード
+        guide: |
+          <p><strong>ATTENTIONす！</strong></p>
+          <p>Your口座およびすべてのお客様の個人データの<strong>permanently deleted</strong>ます。<br/>
+          のechosおいて十分に確保できることを匿名です。</p>
+          <p>Pleaseパスワードを入力して下のボタンをクリックしています。</p>
+        confirm: 削除アカウントを恒久的に
+        success: おechoアカウントが正常に削除されます。
+    social_accounts:
+      title: 社会座
+      guide: 接続までお客さまの勘定で簡単にシェアを増幅おechoその他の社会的ネットワークです。
+      providers:
+        facebook: Facebook
+        twitter: Twitter
+        yahoo!: Yahoo!
+        linkedin: LinkedIn
+        google: Google
+      connect:
+        title: 接続
+        success: お{{account}}口をしっかり接続します。
+        failed: 失敗に接続す{{account}}ます。
+      disconnect:
+        title: 切断
+        success: お{{account}}アカウントを切断します。
+        failed: 失敗を取り外してくださ{{account}}ます。
+      share:
+        title: 広めの
+        guide: くのエコーに社会的ネットワークです。
+        text: メッセージ
+        data_privacy:
+          title: データプライバシー通知
+          description: 心のプライバシーポリシーのその他のネットワーク前からご意見を与えています。
+        preview: プレビュー
+        submit: 送信エコー
+        error: いった間違いを共有しながら、おechoます。 を確認してくださいネットワークに接続します。
+        success: |
+          ってエコーによ{{accounts}}ます。
+        failed: |
+          失敗した共通{{accounts}}ます。
+        timeout: |
+          接続{{accounts}}タイム！
+        enabled: "月"
+        disabled: "Off"
+    users:
+      new:
+        title: おecho
+        subtitle: 参加エコー
+        text: |
+          <p>
+          <strong>echoは民主主義からの人のための人です。</strong>
+          </p><p>
+          てください。
+          </p>
+        action: '参加！'
+      messages:
+        created: "を確認してくださいメールを起動新規作成されたアカウントへ入金いたします。"
+        activate_email: 完成させるためには、E-Mailアドレスを変更、ログインしてください出版のconfimationリンクを送付Eメールアドレスです！
+    reports:
+      new:
+        title: "報告書のユーザー"
+        text: |
+          <p>Didす<strong>offensiveは、不正又は違法なコンテンツを掲載すか？</strong><br/>
+          その場合、ここにご報告することができるものと、ユーザーへの事務チームます。
+          </p><p>
+          またチェックを発行しています。
+          </p>
+      messages:
+        created: "まメッセージです。 管理者へ連絡します。"
+  discuss:
+    my_questions:
+      link: 私の質問
+      title: 私の新刊のご質問
+      no_questions: |
+        ていなかったとしたら作成した質問をしています。 なボタンをクリックしてください疑問符のボタンを押します。
+      add: 追加質問
+    translation_request: 応募希望の方は、この言<strong>ENGLISH</strong>ます。
+    mixed_languages: 混ざり合い言語
+    set_languages: 設定<strong>LANGUAGE SKILLS</strong>-ふきの音を鳴らせ！
+    no_locale_language: まだ英語でも構わないでしょうか？
+    adjust_languages: クラ<strong>ENGLISH語skills</strong>す！
+    results_count:
+      one: '{{count}}質問'
+      more: '{{count}}質問'
+    for: |-
+      "{{value}}'
+    featured_topics:
+      title: 表題
+      tabs:
+        echo:
+          title: 約echo
+        pilot_projects:
+          title: パイロットプロジェクト
+    search:
+      title: 検索
+      in: '---{{category}}...'
+      add: "をよろしくお願いしますいので、"
+      placeholder: "話題の場所および利益"
+    tooltips:
+      read_question: 'という質問'
+      read_proposal: 'この提案'
+      read_improvement: 'このほか、'
+      read_pro_argument: 'このプロの引数'
+      read_contra_argument: 'この逆引数'
+      read_follow_up_question: 'このフォロー問題'
+      current_question: '現在表示されている質問'
+      current_proposal: '現在表示されている提案'
+      current_improvement: '現在表示されているほか、'
+      current_pro_argument: '現在表示されているプロの引数'
+      current_contra_argument: '現在表示されている逆引数'
+      current_background_info: '現在表示されている背景情報'
+      current_follow_up_question: '現在表示されているフォロー問題'
+      back_to_question: '戻る現在の問題'
+      back_to_proposal: '裏には現在の提案'
+      back_to_improvement: 'バ電流ま'
+      prev_question: '読む昨年を上記の'
+      next_question: 'きを読むという問いは文脈を記載'
+      prev_proposal: '読む前回の提案は、現在の問題'
+      next_proposal: 'きを読むための提案、現在の問題'
+      prev_improvement: '読む前の、現在の提案'
+      next_improvement: 'きを読むほか、現在の提案'
+      prev_pro_argument: '読む前引数は、現在の提案'
+      next_pro_argument: 'きを読む引数は、現在の提案'
+      prev_contra_argument: '読む前引数は、現在の提案'
+      next_contra_argument: 'きを読む引数は、現在の提案'
+      prev_background_info: '前背景情報は、現在の声明'
+      next_background_info: '次の背景情報は、現在の声明'
+      prev_follow_up_question: '読む前後問題の文脈を記載'
+      next_follow_up_question: '読みを次のフォローアップ問題の文脈を記載'
+      create_question: '新しい問題'
+      create_proposal: "後の新しい提案は、現在の問題"
+      create_improvement: "後ほど現在の提案"
+      create_pro_argument: "ポストの新しいプロの引数の現在の提案"
+      create_contra_argument: "ポストの新しい逆引数の現在の提案"
+      create_alternative: "ポストの新しい反対の声明"
+      create_background_info: "お勧めの新作品の背景情報に関する声明"
+      create_follow_up_question: "後の新たな新しいフォローに関する質問この声明"
+      echo: 'echoことを支援するために！'
+      unecho: '撤回される場合echoを停止すことが決'
+      publish: |
+        リリースの問題では見えません。
+        (その後に編集が可能です。)
+      incorporate: 'ここをクリックに組み込むこと、を提案する。'
+      siblings:
+        question: すべての質問を上記の
+        proposal: すべての提案に所属する現在の問題
+        improvement: すべての追加提案の提案
+        pro_argument: すべての引数に所属する現在の提案
+        contra_argument: すべての引数に所属する現在の提案
+        background_info: すべての背景示に所属する現在の計算書
+      link_statement: |-
+        入力の一部のタイトルまたはペーストのURLする声明を発表した。
+        その後、このボタンを押再利用の算書の現在のコンテキストです。
+      unlink_statement: "再度ボタンをクリックへのリンクを解除します。"
+    statements:
+      label: '投票'
+      echo_link: 'サポート(echo)'
+      unecho_link: '撤退を決'
+      echo_indicator:
+        one: '{{supporter_count}}サポーター'
+        many: '{{supporter_count}}サポーター'
+      add_new: 新しい計算書
+      embed_button: 組み込み
+      embed_search_title: 組み込み検索結果
+      embed_search_hint: |-
+        コピー＆ペーストは、以下のコードを埋め込むこれらの検索結果ウェブサイトをエコーします。
+      embed_statement_title: 組み込み計算書
+      embed_statement_hint: |-
+        コピー＆ペーストは、以下のコードを埋め込むこ算書のウェブサイトをエコーします。
+      copy_url: リンク
+      copy_url_title: リンクの声明
+      copy_url_hint: 'コピーへのリンクはこの声明では、"経由でお好みのチャンネルです。'
+      create_question_link: '新しい問題'
+      create_proposal_link: 新規追加提案
+      create_internal_link: '新しい発想です。'
+      create_improvement_link: を提案しま
+      create_pro_argument_link: 新しいプロの引数
+      create_contra_argument_link: 新しい逆引数
+      create_alternative_link: 新しい反
+      create_background_info_link: 新規追加の背景情報
+      create_follow_up_question_link: 新しいフォロー問題
+      preview_embedded_content: プレビュー
+      open_embedded_content: 新規ウィンドウの表示
+      statement_language_hint: |
+        に設定してください言語能力<a href='{{url}}'>Profile</a>ます。
+      statement_language_hint_tooltip: |
+        くすることはできませんの入諸表に任意の言語で少なくとも中間レベルです。
+      drafting_language_hint: |
+        注意していただきたいのは、集団推進するだけで可能で選択した単語帳（英語音声の再生も可能）
+      fuq_formulation_hint: |
+        以降のフォローまでの質問もしての質問で"検索"のタイトルと説明るべき
+        わかりやすい独自の議論を行う。
+      tag_permission: |
+        ただし、許を挿入する'{{tag}}'タグです。
+      read_permission: |
+        ご許可を持っていない読めに決まっているわけです。
+      title_hint:
+        question: 入力の問題---英語でも構わないでしょうか？
+        proposal: 入提案のタイトル---英語でも構わないでしょうか？
+        improvement: 入力のほか、タイトル---英語でも構わないでしょうか？
+        pro_argument: 入力の引数をタイトル---英語でも構わないでしょうか？
+        contra_argument: 入りの逆引数をタイトル---英語でも構わないでしょうか？
+        background_info: 入の背景情報のタイトル---英語でも構わないでしょうか？
+        follow_up_question: 入力の問題---英語でも構わないでしょうか？
+      text_hint:
+        alternative_prefix: |
+          僕らは相互排他的に計算書及びその他の選択肢です。<br/><br/>
+        question: で記述してください問題に詳しい具体的な質問が---
+        proposal: |
+          について記入してください提案の詳細は---<br/><br/>
+          の種類によっては質問、提案できるときの答えは、
+          ソリューション-アプローチまたは位置の問題をもたらしていました。
+        improvement: |
+          について記入してください追加または変更の提案の詳細は---<br/><br/>
+          これらの追加をベースとしてechos民主的プロセスの共同精緻化と
+          改善提案します。 の著者の追加の最大の支援を定期的に指
+          の機会に組み込むアイデアや考えを提案します。
+        pro_argument: について記入してくださいポイントの提案の詳細は---
+        contra_argument: について記入してください点に対する提案の詳細は---
+        background_info: |
+          で記述してください、おすすめの背景情報にくい理由
+          るという興味深いこ...
+        follow_up_question: について記入してください-問題をより詳細に---
+      tag_hint: '入りタグ。'
+      info_url_hint: '入へのリンクを外部のコンテンツ'
+      publish: リリース
+      published: に問題が発売されています。
+      edit: '編集{{type}}'
+      types:
+        question: '質問'
+        proposal: 'の提案'
+        improvement: '加'
+        pro_argument: 'プロの引数'
+        contra_argument: '魂斗羅の引数'
+        alternative: '反対'
+        background_info: '背景情報'
+        follow_up_question: 'フォロー問題'
+      new:
+        question: '新しい問題'
+        proposal: '新提案'
+        improvement: '新たに加わった'
+        pro_argument: '新しいプロの引数'
+        contra_argument: '新しい逆引数'
+        background_info: '新しい背景情報'
+        follow_up_question: '新しいフォロー問題'
+      headings:
+        question: '質問'
+        proposal: 'の提案'
+        improvement: '追加'
+        argument: 'プ&連結実績'
+        alternatives: '選択肢'
+        background_info: '背景示'
+        follow_up_question: 'フォロー問題'
+      sibling_labels:
+        question: '質問'
+        proposal: 'の提案'
+        improvement: '追加'
+        argument: '引数'
+        background_info: '背景'
+        follow_up_question: '質問'
+      siblings:
+        background_info: '背景示'
+        follow_up_question: 'フォロー問題の文脈を記載'
+      topic: セキュリティーソフトタグ/キーワード
+      states:
+        label: '公開の問い直すか？'
+        initial_state:
+          new: 'セットで初公開後'
+          published: '公開コンフィグ即時(さらに編集することができます。'
+        published: 発売
+        approved: 承認され
+      delete_link: '削除'
+      delete_confirmation: 'Are you sure you want to deleteす。'
+      read_only_permission: |-
+        この透明で、または休業中の議論のみとさせていただきます。
+      unsupported_parent: |-
+        できるだけをサポートの追加を支持する場合にはその提案そのものです。
+      not_approved_any_more: |-
+        残念ながら、このほか、できない法人縮したものになっています。
+      see_parent_if_approved: |-
+        要求されたほか、現在の承認に切り込むことが期待されている提案をします。
+      see_parent_if_incorporated: |-
+        要求されたほか、既に導入を提案します。
+      being_edited: |-
+        の現在編集されています。 後ほど再度お試しください。.
+      statement_updated: |-
+        この{{type}}が更新されている。
+      statement_supported: |-
+        謝のためのエコーの{{type}}ます。
+      statement_unsupported: |-
+        す撤退おechoから{{type}}ます。
+      edit_period_hint: |
+        ま<strong>{{minutes}}minutes</strong>を編集します。
+        その後、変更はなく破棄されます。
+      staled_modification: 'たしまして大変申し訳ありませんが、ご回60分間制限を編集して、保存します。 一方、すでに更新されているユーザー様による別付けとなる。 そのため、ご変更は残念ながら廃棄されます。'
+      no_document_in_language: 'の声明が存在しない英語でいます。'
+      supporter_to_share: 'することのできるサポーターのことで解決するためです！'
+      published_to_share: 'この議論はまだ出版されます。 それまではできないのでシェアします。'
+      cannot_be_edited: 残念ながら、編集できませんこの声明の後、他のメンバーに支えられて下げ止まりから持します。 これは、捏発な意見が出されました。
+      cannot_be_linked: 残念ながらこの声明できないリンクの現在のコンテキストです。
+      echos_label: 支援
+      linking:
+        disabled: リンク
+        enabled: リンク
+      breadcrumbs:
+        discuss_search: 検索結果
+        my_questions: 私の質問
+        labels:
+          ds: ''
+          mi: ''
+          sr: '問題発見のための'
+          pr: 'の提案'
+          im: '追加のために'
+          ar: '引数'
+          bi: '背景示のための'
+          fq: 'フォロー問題'
+          jp: '以下のリンク'
+          over:
+            ds: 'に戻る'
+            mi: 'に戻る'
+            sr: '戻検索結果'
+            pr: 'に戻る'
+            im: 'に戻る'
+            ar: 'に戻る'
+            bi: 'に戻る'
+            fq: 'に戻る'
+            jp: 'に戻る'
+      upload_image:
+        title: 画像アップロード
+        guide: ください<strong>select、image</strong>(JPGまたはPNG、最大です。 5MB)にアップロードしてくださいます。
+        progress: の画像がアップしました。 しばらくお待ち下さい。
+        error: の画像できない適用されます。 アップロードしてくださいサポートされたフォーマット(JPGまたはPNGおよびmax. 5MBます。
+      add_teaser:
+        question: |
+          ここで疑問が出現すると考えられます。<br/><br/>Haveん。<br/><br/>
+          ボタン上に入力してください。
+        proposal: |
+          ここにご案の質問が表示されます。<br/><br/>Haveん。<br/><br/>
+          ボタン上に入力してください。
+        improvement: |
+          ここのほか、又は改正の提案が表示されます。<br/><br/>Haveん。<br/><br/>
+          ボタン上に入力してください。
+        pro_argument: |
+          ここでは、お客様の論の提案が表示されます。<br/><br/>Haveん。<br/><br/>
+          ボタン上に入力してください。
+        contra_argument: |
+          ここでは、お客様の論点に対する提案が出現すると考えられます。<br/><br/>Haveん。<br/><br/>
+          ボタン上に入力してください。
+        background_info: |
+          この新しい背景情報に関する現在の計算書きが表示されます。<br/><br/>
+          いすることができます。すか？<br/><br/>
+          ボタン上に入力してください。
+        follow_up_question: |
+          ここのフォローの質問が表示されます。<br/><br/>Haveん。<br/><br/>
+          ボタン上に入力してください。
+    summary:
+      title: '概要'
+    messages:
+      created: "新{{type}}を入力します。"
+      updated: "の{{type}}を更新しました。"
+      deleted: "の{{type}}て削除されました。"
+      translated: "の{{type}}しております。"
+      incorporated: "また、提案します。"
+      image_uploaded: "イラスト画像に加えられ{{type}}ます。"
+      new_percentage: "プロフィールは{{percentage}}%完了します。"
+  connect:
+    fill_out_profile:
+      text: '記ご記入ください<strong>at少なくとも{{percentage}}%</strong>のプロフィール"、コンピュータ"嬉しいやもうこのブロックが消えます。 :-)'
+      name: 'マイプロフィール'
+      description: '完全にプロファイルを現在の自分自身のエコーです。'
+    placeholder: '話題の場所には、組織名利'
+    segments:
+      all: 'すべての'
+      affection: '影響を受け'
+      engagement: 'に従事'
+      expertise: '専門家'
+      decision_making: '意思決定'
+    results_count:
+      all:
+        no_filter:
+          one: '人'
+          more: '人'
+        with_filter:
+          one: "人に関する{{filter}}'"
+          more: "人に関する{{filter}}'"
+      affection:
+        no_filter:
+          one: 影響を受け人
+          more: 影響を受け人
+        with_filter:
+          one: "人の影響を受けによる{{filter}}'"
+          more: "人の影響を受けによる{{filter}}'"
+      engagement:
+        no_filter:
+          one: 行者
+          more: 従人
+        with_filter:
+          one: "人従'{{filter}}'"
+          more: "に従事している人'{{filter}}'"
+      expertise:
+        no_filter:
+          one: 専門家
+          more: 専門家
+        with_filter:
+          one: "専門家\"{{filter}}'"
+          more: "専門家\"{{filter}}'"
+      decision_making:
+        no_filter:
+          one: 決定メーカー
+          more: 意思決定
+        with_filter:
+          one: "決定メーカー\"{{filter}}'"
+          more: "意思決定\"{{filter}}'"
+    details:
+      tabs:
+        overview: '概要'
+        concernments: '力'
+        web_addresses: 'ウェブアドレス'
+      actions:
+        report: "報告書"
+        send_mail: "送信メッセージ"
+    messages:
+      empty: 'ない人のメンバーです。 に変更してください検索条件です。'
+      no_concernments: "この委員は、な定義の任意concernments力します。"
+      no_web_addresses: "この委員は、定義されていない他のウェブアドレスをつけられている。"
+  feedback:
+    new:
+      title: 声
+      welcome: |
+        <p>
+        <strong>We見についての考え方を伺います！</strong><br/>
+        </p><p>
+        いつでも質問、コメントを批判しくは賛ます。
+        </p>
+      message: メッセージ
+      send: 送信メッセージ
+    create:
+      thank_you: までお問い合わせくださいます。
+  user_mail:
+    new:
+      title: メール送信
+      guide: ここではメールにてご連絡、選択したエコー。
+      subject: 対象
+      text: メッセージ
+    create:
+      thank_you: お問い合わせ内容を送信します。
+  activerecord:
+    errors:
+      models:
+        feedback:
+          attributes:
+            blank: '全ての項目をご記入下さいます。'
+            email:
+              invalid: 'ご入力ください有効なE-メールアドレスにお送りします。'
+        newsletter:
+          attributes:
+            blank: '全ての項目をご記入下さいます。'
+            email:
+              invalid: 'ご入力ください有効なE-メールアドレスにお送りします。'
+        user:
+          attributes:
+            email:
+              taken: 'E-Mailアドレスは既に使用されています。'
+              invalid: 'ご入力ください有効なE-メールアドレスにお送りします。'
+            password:
+              invalid: '間違ったパスワードです。'
+        social_identifier:
+          taken: 'このソーシャルアカウントは既に使用されています。 ログインしてください国内の宿探しのお得な情報満載。'
+      messages:
+        blank: "の分野{{attribute}}'はならない。"
+        taken: 'は既に使用されています。'
+        too_short: "ご入力\"{{attribute}}は短すぎます。"
+        too_long: "ご入力\"{{attribute}}'が長すぎます。"
+        invalid: "ご入力\"{{attribute}}ならないときに有効な形式です。"
+        confirmation: '{{attribute}}確認が一致しませんでした。'
+        access_denied: "ことができませんのでこのアクションを実行する。"
+      template:
+        header:
+          other: "{{count}}演題が受付されていないたします。"
+        body: "修正してください:"
+    attributes:
+      profile:
+        email: E-Mail
+        full_name: 名称
+        gender: 男女別
+        city: 都市
+        country: 国
+        location: 所在地
+        about_me: となって
+        motivation: 考えるエコー
+        memberships: 活動
+        spoken_languages: 語学力
+      report:
+        reason: 'その理由'
+      web_address:
+        location: 'ウェブアドレス'
+      membership:
+        position: 私の役割
+      statement_node:
+        image: '画像ファイル'
+      statement_document:
+        language_id: '言語'
+        language: '言語'
+        title: 'タイトル'
+        text: '概要'
+        image: 'イラスト'
+      statement:
+        info_type_id: 'コンテンツタイプ'
+      statement_data:
+        info_url: '背景情報リンク'
+      about_item:
+        photo: '写真'
+        name: '名称'
+        responsibility: '責任'
+        description: '説明'
+        about_category_id: '約商品'
+        index: 'Index'
+    models:
+      question: "質問"
+      proposal: "の提案"
+      improvement: "加"
+      pro_argument: 'プロの引数'
+      contra_argument: '魂斗羅の引数'
+      follow_up_question: 'フォロー問題'
+  authlogic:
+    error_messages:
+      email_invalid: "を入力してください正しいeメールアドレスにお送りします。"
+      password_blank: "パスワードを定義する必要があります。"
+      not_active: "アカウント認証されていませんか。 メールの受信をご確認ください。."
+      must_be_logged_in: "ログインしてくださいこのアクションを実行する。"
+      must_be_logged_out: "ログインしてください出しを行うことです。"
+    attributes:
+      user_session:
+        email: E-Mail
+        password: パスワード
+  date:
+    formats:
+      default: "%dます。%m.%Y"
+      short: "%eます。 %b"
+      long: "%eます。 %B%Y"
+      only_day: "%e"
+      month_name: "%B"
+      day_name: "%a"
+    day_names:
+      - 日曜日
+      - 月曜日
+      - 火曜日
+      - 水曜日
+      - 木曜日
+      - 金曜日
+      - 土曜日
+    abbr_day_names:
+      - Su
+      - Mo
+      - Tu
+      - ま
+      - Th
+      - Fr
+      - Sa
+    month_names:
+      - null
+      - 月
+      - 月
+      - 月
+      - 月
+      - 月
+      - 月
+      - 月
+      - 月
+      - 月
+      - 月
+      - 月
+      - 月
+    abbr_month_names:
+      - null
+      - Jan
+      - Feb
+      - Mar
+      - Apr
+      - 舞
+      - Jun
+      - 月
+      - Aug
+      - 月
+      - Oct
+      - 月
+      - 年月日
+    order:
+      - '：日'
+      - '：月'
+      - 年
+  time:
+    formats:
+      default: "%aは、%dます。 %B%Y"
+      short: "%eます。 %B,%H:%M時"
+      long: "%Aは、%eます。 %B%Y,%H:%M時"
+      time: "%H:%M"
+    am: "朝"
+    pm: "午後には"
+  datetime:
+    distance_in_words:
+      half_a_minute: '半分'
+      less_than_x_seconds:
+        other: '以下{{count}}秒'
+      x_seconds:
+        other: '{{count}}秒'
+      less_than_x_minutes:
+        other: '以下{{count}}分'
+      x_minutes:
+        other: '{{count}}分'
+      about_x_hours:
+        other: '約{{count}}時間'
+      x_days:
+        other: '{{count}}日'
+      about_x_months:
+        other: '約{{count}}ヶ月'
+      x_months:
+        other: '{{count}}ヶ月'
+      about_x_years:
+        other: '約{{count}}年'
+      over_x_years:
+        other: '以上{{count}}年'
+    prompts:
+      second: "秒"
+      minute: "分"
+      hour: "時間"
+      day: "日"
+      month: "月"
+      year: "年"
+  number:
+    format:
+      precision: 2
+      separator: 'は、'
+      delimiter: 'ます。'
+    currency:
+      format:
+        unit: 'ユーロ'
+        format: '%n%u'
+        separator: ""
+        delimiter: ""
+        precision: ""
+    percentage:
+      format:
+        delimiter: ""
+    precision:
+      format:
+        delimiter: ""
+    human:
+      format:
+        delimiter: ""
+        precision: 1
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            other: "バイト"
+          kb: "KB"
+          mb: "MB"
+          gb: "GB"
+          tb: "TB"
+  newsletters:
+    send_confirmation: ご確認ください。
